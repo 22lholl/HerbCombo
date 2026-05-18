@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, September 29, 2025 1:20:13 PM</msg><msg code="1" type="100">  File "c:\program files\arcgis\pro\Resources\ArcToolbox\Scripts\defenseConversionToolUtilities.py", line 805, in tableToPoint
+    tempLayerOut = arcpy.management.MakeXYEventLayer(inputTable,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ERROR 000055: Cannot create a Query Table for this workspace
+Failed to execute (MakeXYEventLayer).
+
+ERROR 000055: Cannot create a Query Table for this workspace
+Failed to execute (MakeXYEventLayer).
+</msg><msg code="-2147467259" type="100">Failed to execute (CoordinateTableToPoint).</msg><msg code="0" type="3">Failed at Monday, September 29, 2025 1:20:16 PM (Elapsed Time: 2.67 seconds)</msg></messages>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, September 29, 2025 1:09:20 PM</msg><msg code="1" type="100">  File "c:\program files\arcgis\pro\Resources\ArcToolbox\Scripts\defenseConversionToolUtilities.py", line 824, in tableToPoint
+    result = arcpy.ConvertCoordinateNotation_management(inputTable,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Failed to execute. Parameters are not valid.
+ERROR 001279: Latitude item cannot be the same as Longtide item.
+Failed to execute (ConvertCoordinateNotation).
+
+Failed to execute. Parameters are not valid.
+ERROR 001279: Latitude item cannot be the same as Longtide item.
+Failed to execute (ConvertCoordinateNotation).
+</msg><msg code="-2147467259" type="100">Failed to execute (CoordinateTableToPoint).</msg><msg code="0" type="3">Failed at Monday, September 29, 2025 1:09:21 PM (Elapsed Time: 1.20 seconds)</msg></messages>
