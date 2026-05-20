@@ -1,0 +1,1 @@
+This project and code were created as part of a final project for ENSC 381 - Intro to Data Science. It looks at the contriubtions of SUWS through approximately 2007, specifically focusing on why there are two peaks in collection (September and July).

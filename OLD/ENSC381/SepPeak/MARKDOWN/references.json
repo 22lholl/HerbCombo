@@ -1,0 +1,2860 @@
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "preferences": {
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoExport": "immediate",
+      "autoExportDelay": 5,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "automaticTags": true,
+      "auxImport": false,
+      "baseAttachmentPath": "",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": true,
+      "biblatexExtractEprint": true,
+      "biblatexUsePrefix": true,
+      "bibtexEditionOrdinal": false,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "cacheDelete": false,
+      "charmap": "",
+      "chinese": false,
+      "chineseSplitName": true,
+      "citeCommand": "cite",
+      "citekeyCaseInsensitive": true,
+      "citekeyFold": true,
+      "citekeyFormat": "auth.lower + year",
+      "citekeySearch": true,
+      "citekeyUnsafeChars": "\\\"#%'(),={}~",
+      "csquotes": "",
+      "DOIandURL": "both",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": true,
+      "exportSort": "citekey",
+      "exportTitleCase": true,
+      "extraMergeCitekeys": false,
+      "extraMergeCSL": false,
+      "extraMergeTeX": false,
+      "fillKeyAfter": 1,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importDetectURLs": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importNoteToExtra": "",
+      "importPlaceEvent": "inproceedings,conference,presentation,talk",
+      "importSentenceCase": "on+guess",
+      "importSentenceCaseQuoted": true,
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 5,
+      "jabrefFormat": 0,
+      "japanese": false,
+      "keyScope": "library",
+      "language": "langid",
+      "mapMath": "",
+      "mapText": "",
+      "packages": "",
+      "parseParticles": true,
+      "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
+      "postscript": "",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "remigrate": false,
+      "resetKeyOnChange": true,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/, keywords",
+      "warnBulkModify": 10,
+      "warnTitleCased": false
+    },
+    "options": {
+      "Items": true,
+      "Normalize": false,
+      "Preferences": true,
+      "biblatexAPA": false,
+      "biblatexChicago": false,
+      "exportFileData": false,
+      "exportNotes": true,
+      "keepUpdated": false,
+      "worker": true,
+      "exportDir": "C:\\Users\\22lho\\OneDrive\\Desktop\\ENSC381\\SepPeak\\MARKDOWN",
+      "exportPath": "C:\\Users\\22lho\\OneDrive\\Desktop\\ENSC381\\SepPeak\\MARKDOWN\\references.json"
+    }
+  },
+  "version": {
+    "zotero": "9.0.2",
+    "bbt": "9.0.23"
+  },
+  "collections": {
+    "7IKZSY4C": {
+      "key": "7IKZSY4C",
+      "parent": "",
+      "name": "HW1",
+      "collections": [],
+      "items": [
+        1020,
+        1025,
+        1028,
+        1032,
+        1146,
+        1149,
+        1150,
+        1152,
+        1154,
+        1156,
+        1158
+      ]
+    },
+    "Y3VSJ8JP": {
+      "key": "Y3VSJ8JP",
+      "parent": "",
+      "name": "Uncited but Interesting",
+      "collections": [],
+      "items": [
+        1017,
+        1124
+      ]
+    }
+  },
+  "items": [
+    {
+      "key": "NJDVX3S7",
+      "version": 3893,
+      "itemType": "webpage",
+      "title": "Function vs Method in Python",
+      "abstractNote": "Hi guys! Starting out in programming and learning python I often wondered about the key differences...",
+      "date": "2023-05-15",
+      "language": "en",
+      "url": "https://dev.to/simoneintech/function-vs-method-in-python-3335",
+      "accessDate": "2026-04-10T01:06:33Z",
+      "citationKey": "2023c",
+      "websiteTitle": "DEV Community",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-10T01:06:33Z",
+      "dateModified": "2026-04-10T01:06:33Z",
+      "uri": "http://zotero.org/users/14346239/items/NJDVX3S7",
+      "itemID": 1154,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://dev.to/simoneintech/function-vs-method-in-python-3335",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-10T01:06:42Z",
+          "dateModified": "2026-04-10T01:06:42Z",
+          "uri": "http://zotero.org/users/14346239/items/FVMVPBRX",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\FVMVPBRX\\function-vs-method-in-python-3335.html",
+          "select": "zotero://select/library/items/FVMVPBRX"
+        }
+      ],
+      "notes": [],
+      "itemKey": "NJDVX3S7",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/NJDVX3S7"
+    },
+    {
+      "key": "9MMKKG7Y",
+      "version": 4355,
+      "itemType": "encyclopediaArticle",
+      "title": "Index (statistics)",
+      "abstractNote": "In statistics and research design, an index is a composite statistic – a measure of changes in a representative group of individual data points, or in other words, a compound measure that aggregates multiple indicators. Indices – also known as indexes and composite indicators – summarize and rank specific observations.\nMuch data in the field of social sciences and sustainability are represented in various indices such as Gender Gap Index, Human Development Index or the Dow Jones Industrial Average. The ‘Report by the Commission on the Measurement of Economic Performance and Social Progress’, written by Joseph Stiglitz, Amartya Sen, and Jean-Paul Fitoussi in 2009  suggests that these measures have experienced a dramatic growth in recent years due to three concurring factors: \n\nimprovements in the level of literacy (including statistical)\nincreased complexity of modern societies and economies, and\nwidespread availability of information technology.\nAccording to Earl Babbie, items in indices are usually weighted equally, unless there are some reasons against it (for example, if two items reflect essentially the same aspect of a variable, they could have a weight of 0.5 each).\nAccording to the same author, constructing the items involves four steps. First, items should be selected based on their content validity, unidimensionality, the degree of specificity in which a dimension is to be measured, and their amount of variance. Items should be empirically related to one another, which leads to the second step of examining their multivariate relationships. Third, index scores are designed, which involves determining score ranges and weights for the items. Finally, indices should be validated, which involves testing whether they can predict indicators related to the measured variable not used in their construction.\nA handbook for the construction of composite indicators (CIs) was published jointly by the OECD and by the European Commission's Joint Research Centre in 2008. The handbook – officially endorsed by the OECD high level statistical committee, describe ten recursive steps for developing an index:\n\nStep 1: Theoretical framework\nStep 2: Data selection\nStep 3: Imputation of missing data\nStep 4: Multivariate analysis\nStep 5: Normalisation\nStep 6: Weighting\nStep 7: Aggregating indicators\nStep 8: Sensitivity analysis\nStep 9: Link to other measures\nStep 10: Visualisation\nAs suggested by the list, many modelling choices are needed to construct a composite indicator, which makes their use controversial. The delicate issue of assigning and validating weights is discussed e.g. in. A sociological reading of the nature of composite indicators is offered by Paul-Marie Boulanger, who sees these measures at the intersection of three movements: \n\nthe democratisation of expertise, the concept that more knowledge is needed to tackle societal and environmental issues that can be provided by the sole experts – this line of thought connects to the concept of extended peer community developed by post-normal science\nthe impulse to the creation of a new public through a process of social discovery, which can be reconnected to the work of pragmatists such as John Dewey\nthe semiotic of Charles Sanders Peirce; Thus a CI is not just a sign or a number, but suggests an action or a behaviour.\nA subsequent work by Boulanger  analyses composite indicators in light of the social system theories of Niklas Luhmann to investigate how different measurements of progress are or are not taken up.",
+      "date": "2025-08-31T05:02:02Z",
+      "language": "en",
+      "libraryCatalog": "Wikipedia",
+      "url": "https://en.wikipedia.org/w/index.php?title=Index_(statistics)&oldid=1308728131",
+      "accessDate": "2026-04-29T00:01:05Z",
+      "rights": "Creative Commons Attribution-ShareAlike License",
+      "extra": "Page Version ID: 1308728131",
+      "citationKey": "2025",
+      "encyclopediaTitle": "Wikipedia",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-29T00:01:05Z",
+      "dateModified": "2026-04-29T00:01:05Z",
+      "uri": "http://zotero.org/users/14346239/items/9MMKKG7Y",
+      "itemID": 1184,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://en.wikipedia.org/w/index.php?title=Index_(statistics)&oldid=1308728131",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-29T00:01:12Z",
+          "dateModified": "2026-04-29T00:01:12Z",
+          "uri": "http://zotero.org/users/14346239/items/98ZMIYI9",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\98ZMIYI9\\index.html",
+          "select": "zotero://select/library/items/98ZMIYI9"
+        }
+      ],
+      "notes": [],
+      "itemKey": "9MMKKG7Y",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/9MMKKG7Y"
+    },
+    {
+      "key": "LP86UPN8",
+      "version": 4351,
+      "itemType": "encyclopediaArticle",
+      "title": "Multimodal distribution",
+      "abstractNote": "In statistics, a multimodal distribution is a probability distribution with more than one mode (i.e., more than one local peak of the distribution). These appear as distinct peaks (local maxima) in the probability density function, as shown in Figures 1 and 2. Categorical, continuous, and discrete data can all form multimodal distributions. Among univariate analyses, multimodal distributions are commonly bimodal.",
+      "date": "2026-01-10T18:49:26Z",
+      "language": "en",
+      "libraryCatalog": "Wikipedia",
+      "url": "https://en.wikipedia.org/w/index.php?title=Multimodal_distribution&oldid=1332239356",
+      "accessDate": "2026-04-28T23:57:28Z",
+      "rights": "Creative Commons Attribution-ShareAlike License",
+      "extra": "Page Version ID: 1332239356",
+      "citationKey": "2026",
+      "encyclopediaTitle": "Wikipedia",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-28T23:57:28Z",
+      "dateModified": "2026-04-28T23:58:03Z",
+      "uri": "http://zotero.org/users/14346239/items/LP86UPN8",
+      "itemID": 1180,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://en.wikipedia.org/w/index.php?title=Multimodal_distribution&oldid=1332239356",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-28T23:57:36Z",
+          "dateModified": "2026-04-28T23:57:36Z",
+          "uri": "http://zotero.org/users/14346239/items/UUDMYK5X",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\UUDMYK5X\\index.html",
+          "select": "zotero://select/library/items/UUDMYK5X"
+        }
+      ],
+      "notes": [],
+      "itemKey": "LP86UPN8",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/LP86UPN8"
+    },
+    {
+      "key": "V35F69BJ",
+      "version": 4352,
+      "itemType": "encyclopediaArticle",
+      "title": "Percentage",
+      "abstractNote": "In mathematics, a percentage, percent, or per cent (from Latin  per centum 'by a hundred') is a number or ratio expressed as a fraction of 100. It is often denoted using the percent sign (%), although the abbreviations pct., pct, and sometimes pc are also used. A percentage is a dimensionless number (pure number), primarily used for expressing proportions, but percent is nonetheless a unit of measurement in its orthography and usage.",
+      "date": "2026-04-05T14:32:40Z",
+      "language": "en",
+      "libraryCatalog": "Wikipedia",
+      "url": "https://en.wikipedia.org/w/index.php?title=Percentage&oldid=1347238381",
+      "accessDate": "2026-04-28T23:59:57Z",
+      "rights": "Creative Commons Attribution-ShareAlike License",
+      "extra": "Page Version ID: 1347238381",
+      "citationKey": "2026a",
+      "encyclopediaTitle": "Wikipedia",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-28T23:59:57Z",
+      "dateModified": "2026-04-28T23:59:57Z",
+      "uri": "http://zotero.org/users/14346239/items/V35F69BJ",
+      "itemID": 1182,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://en.wikipedia.org/w/index.php?title=Percentage&oldid=1347238381",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-29T00:00:05Z",
+          "dateModified": "2026-04-29T00:00:05Z",
+          "uri": "http://zotero.org/users/14346239/items/CLXMWEBU",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\CLXMWEBU\\index.html",
+          "select": "zotero://select/library/items/CLXMWEBU"
+        }
+      ],
+      "notes": [],
+      "itemKey": "V35F69BJ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/V35F69BJ"
+    },
+    {
+      "key": "NHG8J9M8",
+      "version": 4362,
+      "itemType": "encyclopediaArticle",
+      "title": "Standard score",
+      "abstractNote": "In statistics, the standard score or z-score is the number of standard deviations by which the value of a raw score (i.e., an observed value or data point) is above or below the mean value of what is being observed or measured. Raw scores above the mean have positive standard scores, while those below the mean have negative standard scores. \nIt is calculated by subtracting the population mean from an individual raw score and then dividing the difference by the population standard deviation. This process of converting a raw score into a standard score is called standardizing or normalizing (however, \"normalizing\" can refer to many types of ratios; see Normalization for more). \nStandard scores are most commonly called z-scores; the two terms may be used interchangeably, as they are in this article. Other equivalent terms in use include z-value, z-statistic, normal score, standardized variable and pull in high energy physics. \nComputing a z-score requires knowledge of the mean and standard deviation of the complete population to which a data point belongs; if one only has a sample of observations from the population, then the analogous computation using the sample mean and sample standard deviation yields the t-statistic.",
+      "date": "2026-03-22T19:18:49Z",
+      "language": "en",
+      "libraryCatalog": "Wikipedia",
+      "url": "https://en.wikipedia.org/w/index.php?title=Standard_score&oldid=1344821759",
+      "accessDate": "2026-04-29T00:31:15Z",
+      "rights": "Creative Commons Attribution-ShareAlike License",
+      "extra": "Page Version ID: 1344821759",
+      "citationKey": "2026b",
+      "encyclopediaTitle": "Wikipedia",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-29T00:31:15Z",
+      "dateModified": "2026-04-29T00:31:15Z",
+      "uri": "http://zotero.org/users/14346239/items/NHG8J9M8",
+      "itemID": 1188,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://en.wikipedia.org/w/index.php?title=Standard_score&oldid=1344821759",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-29T00:31:23Z",
+          "dateModified": "2026-04-29T00:31:23Z",
+          "uri": "http://zotero.org/users/14346239/items/TN8NXG7N",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\TN8NXG7N\\index.html",
+          "select": "zotero://select/library/items/TN8NXG7N"
+        }
+      ],
+      "notes": [],
+      "itemKey": "NHG8J9M8",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/NHG8J9M8"
+    },
+    {
+      "key": "DHS3BXMH",
+      "version": 4365,
+      "itemType": "encyclopediaArticle",
+      "title": "Wilcoxon signed-rank test",
+      "abstractNote": "The Wilcoxon signed-rank test is a non-parametric rank test for statistical hypothesis testing used either to test the location of a population based on a sample of data, or to compare the locations of two populations using two matched samples. The one-sample version serves a purpose similar to that of the one-sample Student's t-test. For two matched samples, it is a paired difference test like the paired Student's t-test (also known as the \"t-test for matched pairs\" or \"t-test for dependent samples\"). The Wilcoxon test is a good alternative to the  t-test when the normal distribution of the differences between paired individuals cannot be assumed. Instead, it assumes a weaker hypothesis that the distribution of this difference   is symmetric  around a central value  and it aims to test whether this center value differs significantly from zero. The Wilcoxon test is a more powerful alternative to the sign test because it considers the magnitude of the differences, but it requires this moderately strong assumption of symmetry.",
+      "date": "2026-03-19T11:08:36Z",
+      "language": "en",
+      "libraryCatalog": "Wikipedia",
+      "url": "https://en.wikipedia.org/w/index.php?title=Wilcoxon_signed-rank_test&oldid=1344269584",
+      "accessDate": "2026-04-29T00:51:44Z",
+      "rights": "Creative Commons Attribution-ShareAlike License",
+      "extra": "Page Version ID: 1344269584",
+      "citationKey": "2026c",
+      "encyclopediaTitle": "Wikipedia",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-29T00:51:44Z",
+      "dateModified": "2026-04-29T00:51:44Z",
+      "uri": "http://zotero.org/users/14346239/items/DHS3BXMH",
+      "itemID": 1190,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://en.wikipedia.org/w/index.php?title=Wilcoxon_signed-rank_test&oldid=1344269584",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-29T00:51:51Z",
+          "dateModified": "2026-04-29T00:51:51Z",
+          "uri": "http://zotero.org/users/14346239/items/UWDXZL2E",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\UWDXZL2E\\index.html",
+          "select": "zotero://select/library/items/UWDXZL2E"
+        }
+      ],
+      "notes": [],
+      "itemKey": "DHS3BXMH",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/DHS3BXMH"
+    },
+    {
+      "key": "EALNX3Q5",
+      "version": 3886,
+      "itemType": "computerProgram",
+      "title": "vioplot: Violin Plot",
+      "abstractNote": "A violin plot is a combination of a box plot and a kernel density plot. This package allows extensive customisation of violin plots.",
+      "date": "2025-02-23",
+      "shortTitle": "vioplot",
+      "libraryCatalog": "R-Packages",
+      "url": "https://cran.r-project.org/web/packages/vioplot/index.html",
+      "accessDate": "2026-04-09T22:45:43Z",
+      "rights": "BSD_3_clause + file LICENSE",
+      "versionNumber": "0.5.1",
+      "citationKey": "adler2025",
+      "creators": [
+        {
+          "firstName": "Daniel",
+          "lastName": "Adler",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "S. Thomas",
+          "lastName": "Kelly",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Tom M.",
+          "lastName": "Elliott",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Jordan",
+          "lastName": "Adamson",
+          "creatorType": "programmer"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-09T22:45:43Z",
+      "dateModified": "2026-04-09T22:45:43Z",
+      "uri": "http://zotero.org/users/14346239/items/EALNX3Q5",
+      "itemID": 1149,
+      "attachments": [],
+      "notes": [],
+      "itemKey": "EALNX3Q5",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/EALNX3Q5"
+    },
+    {
+      "key": "NWXJGSCB",
+      "version": 4055,
+      "itemType": "computerProgram",
+      "title": "taxize: Taxonomic Information from Around the Web",
+      "abstractNote": "Interacts with a suite of web application programming interfaces (API) for taxonomic tasks, such as getting database specific taxonomic identifiers, verifying species names, getting taxonomic hierarchies, fetching downstream and upstream taxonomic names, getting taxonomic synonyms, converting scientific to common names and vice versa, and more. Some of the services supported include 'NCBI E-utilities' (<https://www.ncbi.nlm.nih.gov/books/NBK25501/>), 'Encyclopedia of Life' (<https://eol.org/docs/what-is-eol/data-services>), 'Global Biodiversity Information Facility' (<https://techdocs.gbif.org/en/openapi/>), and many more. Links to the API documentation for other supported services are available in the documentation for their respective functions in this package.",
+      "date": "2026-02-14",
+      "shortTitle": "taxize",
+      "libraryCatalog": "R-Packages",
+      "url": "https://cran.r-project.org/web/packages/taxize/index.html",
+      "accessDate": "2026-04-03T22:50:39Z",
+      "rights": "MIT + file LICENSE",
+      "versionNumber": "0.10.1",
+      "citationKey": "chamberlain2026",
+      "creators": [
+        {
+          "firstName": "Scott",
+          "lastName": "Chamberlain",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Eduard",
+          "lastName": "Szoecs",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Zachary",
+          "lastName": "Foster",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Zebulun",
+          "lastName": "Arendsee",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Carl",
+          "lastName": "Boettiger",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Karthik",
+          "lastName": "Ram",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Ignasi",
+          "lastName": "Bartomeus",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "John",
+          "lastName": "Baumgartner",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "James",
+          "lastName": "O'Donnell",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Jari",
+          "lastName": "Oksanen",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Bastian Greshake",
+          "lastName": "Tzovaras",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Philippe",
+          "lastName": "Marchand",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Vinh",
+          "lastName": "Tran",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Maëlle",
+          "lastName": "Salmon",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Gaopeng",
+          "lastName": "Li",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Matthias",
+          "lastName": "Grenié",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "",
+          "lastName": "rOpenSci",
+          "creatorType": "programmer"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Phylogenetics",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-03T22:50:39Z",
+      "dateModified": "2026-04-03T22:50:39Z",
+      "uri": "http://zotero.org/users/14346239/items/NWXJGSCB",
+      "itemID": 1136,
+      "attachments": [],
+      "notes": [],
+      "itemKey": "NWXJGSCB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/NWXJGSCB"
+    },
+    {
+      "key": "8BARXIQN",
+      "version": 4067,
+      "itemType": "dataset",
+      "title": "Online Virtual Flora of Wisconsin",
+      "date": "2025",
+      "url": "https://wisflora.herbarium.wisc.edu/index.php.",
+      "citationKey": "consortiumofwisconsinherbaria2025",
+      "creators": [
+        {
+          "firstName": "",
+          "lastName": "Consortium of Wisconsin Herbaria",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-11-23T19:38:35Z",
+      "dateModified": "2026-04-20T20:34:58Z",
+      "uri": "http://zotero.org/users/14346239/items/8BARXIQN",
+      "itemID": 949,
+      "attachments": [],
+      "notes": [
+        {
+          "key": "DRIKJP2U",
+          "version": 3297,
+          "itemType": "note",
+          "parentItem": "8BARXIQN",
+          "note": "<div data-schema-version=\"9\"><p><span style=\"color: rgb(0, 0, 0)\"><span style=\"background-color: rgb(255, 255, 255)\">Online Virtual Flora of Wisconsin. 2025. https://wisflora.herbarium.wisc.edu/index.php. Accessed on November 23.</span></span></p>\n<p><span style=\"color: rgb(0, 0, 0)\"><span style=\"background-color: rgb(255, 255, 255)\">Biodiversity occurrence data published by Donald W. Davidson Herbarium (SUWS) (Accessed through Online Virtual Flora of Wisconsin Data Portal, https://wisflora.herbarium.wisc.edu/index.php, 2025-09-22)</span></span></p>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-11-23T19:38:45Z",
+          "dateModified": "2025-11-23T19:41:19Z",
+          "uri": "http://zotero.org/users/14346239/items/DRIKJP2U"
+        }
+      ],
+      "itemKey": "8BARXIQN",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/8BARXIQN"
+    },
+    {
+      "key": "E758C964",
+      "version": 4047,
+      "itemType": "journalArticle",
+      "title": "Widespread sampling biases in herbaria revealed from large‐scale digitization",
+      "abstractNote": "Summary\n            \n              \n                \n                  Nonrandom collecting practices may bias conclusions drawn from analyses of herbarium records. Recent efforts to fully digitize and mobilize regional floras online offer a timely opportunity to assess commonalities and differences in herbarium sampling biases.\n                \n                \n                  \n                    We determined spatial, temporal, trait, phylogenetic, and collector biases in\n                    c\n                    . 5 million herbarium records, representing three of the most complete digitized floras of the world: Australia (\n                    AU\n                    ), South Africa (\n                    SA\n                    ), and New England,\n                    USA\n                    (\n                    NE\n                    ).\n                  \n                \n                \n                  \n                    We identified numerous shared and unique biases among these regions. Shared biases included specimens collected close to roads and herbaria; specimens collected more frequently during biological spring and summer; specimens of threatened species collected less frequently; and specimens of close relatives collected in similar numbers. Regional differences included overrepresentation of graminoids in\n                    SA\n                    and\n                    AU\n                    and of annuals in\n                    AU\n                    ; and peak collection during the 1910s in\n                    NE\n                    , 1980s in\n                    SA\n                    , and 1990s in\n                    AU\n                    . Finally, in all regions, a disproportionately large percentage of specimens were collected by very few individuals. We hypothesize that these mega‐collectors, with their associated preferences and idiosyncrasies, shaped patterns of collection bias via ‘founder effects’.\n                  \n                \n                \n                  Studies using herbarium collections should account for sampling biases, and future collecting efforts should avoid compounding these biases to the extent possible.",
+      "date": "01/2018",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.14855",
+      "accessDate": "2025-09-13T20:17:32Z",
+      "rights": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+      "volume": "217",
+      "pages": "939-955",
+      "publicationTitle": "New Phytologist",
+      "DOI": "10.1111/nph.14855",
+      "citationKey": "daru2018",
+      "issue": "2",
+      "journalAbbreviation": "New Phytologist",
+      "ISSN": "0028-646X, 1469-8137",
+      "creators": [
+        {
+          "firstName": "Barnabas H.",
+          "lastName": "Daru",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel S.",
+          "lastName": "Park",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard B.",
+          "lastName": "Primack",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Charles G.",
+          "lastName": "Willis",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "David S.",
+          "lastName": "Barrington",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Timothy J. S.",
+          "lastName": "Whitfeld",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tristram G.",
+          "lastName": "Seidler",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Patrick W.",
+          "lastName": "Sweeney",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "David R.",
+          "lastName": "Foster",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Aaron M.",
+          "lastName": "Ellison",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Charles C.",
+          "lastName": "Davis",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-09-13T20:17:32Z",
+      "dateModified": "2025-09-13T20:17:32Z",
+      "uri": "http://zotero.org/users/14346239/items/E758C964",
+      "itemID": 738,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text",
+          "url": "https://nph.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/nph.14855",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-09-13T20:17:34Z",
+          "dateModified": "2025-09-13T20:17:34Z",
+          "uri": "http://zotero.org/users/14346239/items/BCM7V8PS",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\BCM7V8PS\\Daru et al. - 2018 - Widespread sampling biases in herbaria revealed from large‐scale digitization.pdf",
+          "select": "zotero://select/library/items/BCM7V8PS"
+        }
+      ],
+      "notes": [],
+      "itemKey": "E758C964",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/E758C964"
+    },
+    {
+      "key": "LLDZF9Y8",
+      "version": 4047,
+      "itemType": "journalArticle",
+      "title": "The herbarium of the future",
+      "abstractNote": "The ~400 million specimens deposited across ~3000 herbaria are essential for: (i) understanding where plants have lived in the past, (ii) forecasting where they may live in the future, and (iii) delineating their conservation status. An open access ‘global metaherbarium’ is emerging as these specimens are digitized, mobilized, and interlinked online. This virtual biodiversity resource is attracting new users who are accelerating traditional applications of herbaria and generating basic and applied scientific innovations, including e-monographs and floras produced by diverse, interdisciplinary, and inclusive teams; robust machine-learning algorithms for species identification and phenotyping; collection and synthesis of ecological and genomic trait data at large spatiotemporal and phylogenetic scales; and exhibitions and installations that convey the beauty of plants and the value of herbaria in addressing broader societal issues.",
+      "date": "2023-05-01",
+      "libraryCatalog": "ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0169534722002956",
+      "accessDate": "2026-02-20T06:36:55Z",
+      "volume": "38",
+      "pages": "412-423",
+      "publicationTitle": "Trends in Ecology & Evolution",
+      "DOI": "10.1016/j.tree.2022.11.015",
+      "citationKey": "davis2023",
+      "issue": "5",
+      "journalAbbreviation": "Trends in Ecology & Evolution",
+      "ISSN": "0169-5347",
+      "creators": [
+        {
+          "firstName": "Charles C.",
+          "lastName": "Davis",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "biodiversity",
+          "type": 1
+        },
+        {
+          "tag": "conservation",
+          "type": 1
+        },
+        {
+          "tag": "ecology",
+          "type": 1
+        },
+        {
+          "tag": "digitization",
+          "type": 1
+        },
+        {
+          "tag": "evolution",
+          "type": 1
+        },
+        {
+          "tag": "herbaria",
+          "type": 1
+        },
+        {
+          "tag": "metaherbarium",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2026-02-20T06:36:55Z",
+      "dateModified": "2026-02-20T06:36:55Z",
+      "uri": "http://zotero.org/users/14346239/items/LLDZF9Y8",
+      "itemID": 1005,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Full Text PDF",
+          "url": "https://pdf.sciencedirectassets.com/271938/1-s2.0-S0169534722X00062/1-s2.0-S0169534722002956/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIBqegw%2BYgp7Swxb%2F2ahTy2hClH%2BLLU8ks9bBGZC4xEhEAiEAkDnoOLFQ%2BnCBbUjWuFhQOwZjM6BNVATC9WSRU8R6f9IquwUIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDN100dZTO3XbLQwE%2FiqPBRFh3jGh%2FmPDr0a6CX%2BbG%2Bv0oq9tc9q7z6Bt9lSND3fLj0g8iNOMK8CxQ948AjZP6kqkmHkNJpAD8uWTr%2Bdc%2FllBifV2ls7S0IgQbQSUkiJOAAvYf3fhKclM1cB1cQQdaQ1eWsLXlE6%2BVw5vus70W9Erk1bKa7SY6onDD3os2ctjwAmx1EBIohrfbO8W1ASbYgefeGcAci0wvWkO0jV%2BqxKzupqfibtPhZHaciRSGgYD7ExWGqnmilKOmVsAGeM5xz6hPoYXV781gWB%2BOyv2BMm%2FAZbGqC2%2BpUvUK1nH9IBsfX8xX5xrN28%2FyJcriK8jLEhiYZcdGoYUb9lEcUsKuoBf%2Fi%2BMCvegqy73JNu83yftImcXrFKwely9%2FCKG0t6E%2BvMQsOFXS7kVwOx5KB1E7LpyTDgPyX6%2Fb%2F7pWVZf9233iOPClvnpC65oMN7qXA2QcJdO71ZC1yPsvBj%2FN%2BAZRK6fiut2uAeQvcHlXG3Dnl%2BxVxjx%2BEWCctkDmVGWpVPRlI0T9Sdtsmd1fTdqSHJjXwCMs5ZvU%2FxNSJexl2zD5JaC4Lyrm%2FcHQBwbl2CgpuaHFHjlzyNExJfJZkKkHmeUdF1ytKGC%2B1Ygis2SNbVKr5D90ZFd%2BNZQRMZzUZ5uVfWp3SrNkWYsQAij931Z9oGFzqKgQy9dmW94AVW6BA8rH%2Br4gEA18smo1TNyxwxYumn9hDTgCf4uLj9rFWepW76V2Gka2atZ6CYs8eLt7kP%2BIeqm3Bv%2F3kauPaVUVaznT5kiV0cS1Rm08Hogqi9CIeTiEnwwc7wVC%2FynXqf%2BAMdGCzigX61u%2BfEtPOXOEKN3z3eqxAftGpcx5KfPQj4DIk5rJOpylvBqv7a5rAWzyEtefEwwiuTfzAY6sQGyryr%2FY4kC%2BveXFhmy3jKTdDFJLT0MDcO2s5N1BeB0zzxQUq%2BmYijBx2xnz0LNCxe9RRuuMb%2BILlYJPS%2BbMfhkBLmEA716YqzTQ%2Bx9rgCNhUF4nVyvQ6l8r0KK9JuZOWhhFOc%2BFuGdbLu5MgOg7P6Gkzglu0P25%2F8L1q%2BEN2xGjTfAP53qjnEEdKyoaIkrwCwhB4arA7V5qZbMQJZIptsnKWSgNBJxYZtD%2BAWwa2zPPvA%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260220T063704Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYY52GNNRZ%2F20260220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=87e4f830b62ca4575d1cfe65a11f440f5a72654e0dda7e94d42218a52006571e&hash=4fb16eb6f3c0e513b4df26555ea748b78f0a88e1f6dca4f7f47cef809eebb38c&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0169534722002956&tid=spdf-1489444f-2e0c-4dbe-a2db-de1d5239f365&sid=acd00b0811d48848b70bf9b-ac9c71a9db2cgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=111457025201070b57&rr=9d0bfe43fbd74c9a&cc=us",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-20T06:37:09Z",
+          "dateModified": "2026-02-20T06:37:09Z",
+          "uri": "http://zotero.org/users/14346239/items/M4FSY47I",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\M4FSY47I\\Davis - 2023 - The herbarium of the future.pdf",
+          "select": "zotero://select/library/items/M4FSY47I"
+        },
+        {
+          "itemType": "attachment",
+          "title": "ScienceDirect Snapshot",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0169534722002956",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-20T06:37:07Z",
+          "dateModified": "2026-02-20T06:37:07Z",
+          "uri": "http://zotero.org/users/14346239/items/NFHUW2JF",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\NFHUW2JF\\S0169534722002956.html",
+          "select": "zotero://select/library/items/NFHUW2JF"
+        }
+      ],
+      "notes": [],
+      "itemKey": "LLDZF9Y8",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/LLDZF9Y8"
+    },
+    {
+      "key": "WEL7WVUX",
+      "version": 4047,
+      "itemType": "journalArticle",
+      "title": "Reconstructing the spread of invasive plants: taking into account biases associated with herbarium specimens",
+      "abstractNote": "Abstract\n            \n              Aim\n              To reconstruct the spread of invasive wetland species using herbarium specimens and to develop a method that accounts for the biases associated with this type of historical record.\n            \n            \n              Location\n              Southern Québec.\n            \n            \n              Methods\n              The temporal and spatial distribution of herbarium specimens of vascular plants was examined. Six invasive species that are mainly found in wetlands were compared with five native, non‐expanding hydrophytes. The cumulative number of locations was plotted against time to construct invasion curves. For native species, this ‘invasion curve’ indicates the spatiotemporal distribution of the sampling for herbarium specimens of wetland plants. It also represents the history of the state of knowledge of the distribution of native species. Deviation from the native species invasion curve can be used to describe the spread of invasive species. For every year on record, the cumulative number of locations of each exotic species was divided by the cumulative number of locations of all native species, and the proportions obtained were plotted against time. Periods of invasiveness were then delineated.\n            \n            \n              Results\n              During the twentieth century, two periods of intensive herbarium specimen collection in Québec can be clearly distinguished, i.e. from 1930 to 1940 and from 1950 to 1985. Several periods of invasiveness were delineated for\n              Butomus umbellatus\n              L. (1922–35),\n              Hydrocharis morsus‐ranae\n              L. (1957–96),\n              Lycopus europaeus\n              L. (1963–2000),\n              Lythrum salicaria\n              L. (1890–1905, 1923–46),\n              Phragmites australis\n              (Cav.) Trin. ex Steudel (1963–84) and\n              Rorippa amphibia\n              (L.) Bess. (1929–34, 1943–52, 1971–79).\n            \n            \n              Main conclusions\n              Accounting for sampling biases associated with herbarium specimens is important in order to objectively delineate periods of invasiveness for exotic species. The spread of wetland vascular plant species can be reconstructed using herbarium specimens, even when the phenomenon is rapid, but the reconstruction is certainly more accurate when the invasion occurred during an active sampling period. The highly variable sampling effort for herbarium specimens in Québec and in other regions strongly cautions against using herbarium data without correction procedures.",
+      "date": "07/2003",
+      "language": "en",
+      "shortTitle": "Reconstructing the spread of invasive plants",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1046/j.1365-2699.2003.00897.x",
+      "accessDate": "2025-09-13T14:47:55Z",
+      "rights": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+      "volume": "30",
+      "pages": "1033-1042",
+      "publicationTitle": "Journal of Biogeography",
+      "DOI": "10.1046/j.1365-2699.2003.00897.x",
+      "citationKey": "delisle2003",
+      "issue": "7",
+      "journalAbbreviation": "Journal of Biogeography",
+      "ISSN": "0305-0270, 1365-2699",
+      "creators": [
+        {
+          "firstName": "Fanny",
+          "lastName": "Delisle",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Claude",
+          "lastName": "Lavoie",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Martin",
+          "lastName": "Jean",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Daniel",
+          "lastName": "Lachance",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-09-13T14:47:55Z",
+      "dateModified": "2025-09-13T14:47:55Z",
+      "uri": "http://zotero.org/users/14346239/items/WEL7WVUX",
+      "itemID": 730,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-09-13T14:48:06Z",
+          "dateModified": "2025-09-13T14:48:06Z",
+          "uri": "http://zotero.org/users/14346239/items/5PH9VXUA",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\5PH9VXUA\\Delisle et al. - 2003 - Reconstructing the spread of invasive plants taking into account biases associated with herbarium s.pdf",
+          "select": "zotero://select/library/items/5PH9VXUA"
+        }
+      ],
+      "notes": [],
+      "itemKey": "WEL7WVUX",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/WEL7WVUX"
+    },
+    {
+      "key": "R55JKBSY",
+      "version": 4047,
+      "itemType": "journalArticle",
+      "title": "A journey through time: exploring temporal patterns amongst digitized plant specimens from Australia.",
+      "abstractNote": "Online access to species occurrence records has opened new windows into investigating biodiversity patterns across multiple scales. The value of these records for research depends on their spatial, temporal, and taxonomic quality. We assessed temporal patterns in records from the Australasian Virtual Herbarium, asking: (1) How temporally consistent has collecting been across Australia? (2) Which areas of Australia have the most reliable records, in terms of temporal consistency and inventory completeness? (3) Are there temporal trends in the completeness of attribute information associated with records? We undertook a multi-step filtering procedure, then estimated temporal consistency and inventory completeness for sampling units (SUs) of 50 km × 50 km. We found temporal bias in collecting, with 80% of records collected over the period 1970-1999. South-eastern Australia, the Wet Tropics in north-east Queensland, and parts of Western Australia have received the most consistent sampling effort over time, whereas much of central Australia has had low temporal consistency. Of the SUs, 18% have relatively complete inventories with high temporal consistency in sampling. We also determined that 25% of digitized records had missing attribute information. By identifying areas with low reliability, we can limit erroneous inferences about distribution patterns and identify priority areas for future sampling.",
+      "date": "2018-09-01",
+      "language": "eng",
+      "shortTitle": "A journey through time",
+      "archiveLocation": "132371705",
+      "libraryCatalog": "EBSCOhost",
+      "url": "https://research.ebsco.com/linkprocessor/plink?id=ef21cded-c332-3863-a702-484a9e084d9e",
+      "accessDate": "2026-02-20T08:31:48Z",
+      "volume": "16",
+      "publisher": "Taylor & Francis Ltd",
+      "pages": "604-613",
+      "publicationTitle": "Systematics & Biodiversity",
+      "DOI": "10.1080/14772000.2018.1472674",
+      "citationKey": "haque2018",
+      "issue": "6",
+      "journalAbbreviation": "Systematics & Biodiversity",
+      "ISSN": "1477-2000",
+      "creators": [
+        {
+          "firstName": "MD. Mohasinul",
+          "lastName": "Haque",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "David A.",
+          "lastName": "Nipperess",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "John B.",
+          "lastName": "Baumgartner",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Linda J.",
+          "lastName": "Beaumont",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Australia",
+          "type": 1
+        },
+        {
+          "tag": "Botanical specimens",
+          "type": 1
+        },
+        {
+          "tag": "Plant species",
+          "type": 1
+        },
+        {
+          "tag": "Species distribution",
+          "type": 1
+        },
+        {
+          "tag": "Species diversity",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2026-02-20T08:31:48Z",
+      "dateModified": "2026-02-20T08:31:50Z",
+      "uri": "http://zotero.org/users/14346239/items/R55JKBSY",
+      "itemID": 1008,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full text PDF",
+          "url": "https://research.ebsco.com/linkprocessor/v2-pdf?recordId=l3cceg27en&sourceRecordId=l3cceg27en&profileIdentifier=b2fyv5&intent=download&lang=en",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-20T08:31:50Z",
+          "dateModified": "2026-02-20T08:31:50Z",
+          "uri": "http://zotero.org/users/14346239/items/BZVBVTZT",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\BZVBVTZT\\Haque et al. - 2018 - A journey through time exploring temporal patterns amongst digitized plant specimens from Australia.pdf",
+          "select": "zotero://select/library/items/BZVBVTZT"
+        }
+      ],
+      "notes": [],
+      "itemKey": "R55JKBSY",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/R55JKBSY"
+    },
+    {
+      "key": "GAZEGCVP",
+      "version": 3497,
+      "itemType": "journalArticle",
+      "title": "Matplotlib: A 2D Graphics Environment",
+      "abstractNote": "Matplotlib is a 2D graphics package used for Python for application development, interactive scripting,and publication-quality image generation across user interfaces and operating systems",
+      "date": "2007-05",
+      "shortTitle": "Matplotlib",
+      "libraryCatalog": "IEEE Xplore",
+      "url": "https://ieeexplore.ieee.org/document/4160265",
+      "accessDate": "2026-02-23T03:00:42Z",
+      "volume": "9",
+      "pages": "90-95",
+      "publicationTitle": "Computing in Science & Engineering",
+      "DOI": "10.1109/MCSE.2007.55",
+      "citationKey": "hunter2007",
+      "issue": "3",
+      "ISSN": "1558-366X",
+      "creators": [
+        {
+          "firstName": "John D.",
+          "lastName": "Hunter",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "application development",
+          "type": 1
+        },
+        {
+          "tag": "Computer languages",
+          "type": 1
+        },
+        {
+          "tag": "Equations",
+          "type": 1
+        },
+        {
+          "tag": "Graphical user interfaces",
+          "type": 1
+        },
+        {
+          "tag": "Graphics",
+          "type": 1
+        },
+        {
+          "tag": "Image generation",
+          "type": 1
+        },
+        {
+          "tag": "Interpolation",
+          "type": 1
+        },
+        {
+          "tag": "Operating systems",
+          "type": 1
+        },
+        {
+          "tag": "Packaging",
+          "type": 1
+        },
+        {
+          "tag": "Programming profession",
+          "type": 1
+        },
+        {
+          "tag": "Python",
+          "type": 1
+        },
+        {
+          "tag": "scientific programming",
+          "type": 1
+        },
+        {
+          "tag": "scripting languages",
+          "type": 1
+        },
+        {
+          "tag": "User interfaces",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2026-02-23T03:00:42Z",
+      "dateModified": "2026-02-23T03:00:42Z",
+      "uri": "http://zotero.org/users/14346239/items/GAZEGCVP",
+      "itemID": 1032,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://ieeexplore.ieee.org/document/4160265",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-23T03:01:04Z",
+          "dateModified": "2026-02-23T03:01:04Z",
+          "uri": "http://zotero.org/users/14346239/items/BN8HRFKB",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\BN8HRFKB\\4160265.html",
+          "select": "zotero://select/library/items/BN8HRFKB"
+        }
+      ],
+      "notes": [],
+      "itemKey": "GAZEGCVP",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/GAZEGCVP"
+    },
+    {
+      "key": "U9QXNH8G",
+      "version": 4055,
+      "itemType": "journalArticle",
+      "title": "Effect of Roadside Bias on the Accuracy of Predictive Maps Produced by Bioclimatic Models",
+      "abstractNote": "Sampling bias is a common phenomenon in records of plant and animal distribution. Yet, models based on such records usually ignore the potential implications of bias in data collection on the accuracy of model predictions. This study was designed to investigate the effect of roadside bias, one of the most common sources of bias in biodiversity databases, on the accuracy of predictive maps produced by bioclimatic models. Using data on the distribution of 129 species of woody plants in Israel, we tested the following hypotheses: (1) that data collected on woody plant distribution in Israel suffer from roadside bias, (2) that such bias affects the accuracy of model predictions, (3) that the road network of Israel is biased with respect to climatic conditions, and (4) that the impact of roadside bias on model predictions depends on the magnitude of climatic bias in the geographic distribution of the road network. As expected, the frequency of plant observations near roads was consistently greater than that expected from a spatially random distribution. This bias was most pronounced at distances of 500–2000 m from roads, but it was statistically significant also at larger scales. Predictive maps based on near-road observations were less accurate than those based on off-road or “rectified” observations (observations corrected for roadside bias). However, the magnitude of these differences was extremely low, indicating that even a strong bias in the distribution of species observations does not necessarily deteriorate the accuracy of predictive maps generated by bioclimatic models. Further analysis of the data indicated that the road network of Israel is relatively unbiased in terms of temperature, and only weakly biased in terms of rainfall conditions. The overall results are consistent with the hypothesis that the impact of roadside bias on model predictions depends on the magnitude of climatic bias in the geographic distribution of the road network. We discuss some theoretical and practical considerations of bias correction in biodiversity databases.",
+      "date": "2004",
+      "language": "en",
+      "libraryCatalog": "Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1890/02-5364",
+      "accessDate": "2026-04-03T22:53:08Z",
+      "rights": "© 2004 by the Ecological Society of America",
+      "extra": "_eprint: https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1890/02-5364",
+      "volume": "14",
+      "pages": "401-413",
+      "publicationTitle": "Ecological Applications",
+      "DOI": "10.1890/02-5364",
+      "citationKey": "kadmon2004",
+      "issue": "2",
+      "ISSN": "1939-5582",
+      "creators": [
+        {
+          "firstName": "Ronen",
+          "lastName": "Kadmon",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Oren",
+          "lastName": "Farber",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Avinoam",
+          "lastName": "Danin",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "biodiversity",
+          "type": 1
+        },
+        {
+          "tag": "accuracy assessment",
+          "type": 1
+        },
+        {
+          "tag": "ecological niche models",
+          "type": 1
+        },
+        {
+          "tag": "GIS",
+          "type": 1
+        },
+        {
+          "tag": "Israel",
+          "type": 1
+        },
+        {
+          "tag": "Kappa",
+          "type": 1
+        },
+        {
+          "tag": "species distribution",
+          "type": 1
+        },
+        {
+          "tag": "woody plants",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-03T22:53:08Z",
+      "dateModified": "2026-04-03T22:53:08Z",
+      "uri": "http://zotero.org/users/14346239/items/U9QXNH8G",
+      "itemID": 1137,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-03T22:53:34Z",
+          "dateModified": "2026-04-03T22:53:34Z",
+          "uri": "http://zotero.org/users/14346239/items/8AJVRHRQ",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\8AJVRHRQ\\Kadmon et al. - 2004 - Effect of Roadside Bias on the Accuracy of Predictive Maps Produced by Bioclimatic Models.pdf",
+          "select": "zotero://select/library/items/8AJVRHRQ"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1890/02-5364",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-03T22:53:19Z",
+          "dateModified": "2026-04-03T22:53:19Z",
+          "uri": "http://zotero.org/users/14346239/items/GXHJ5RHP",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\GXHJ5RHP\\02-5364.html",
+          "select": "zotero://select/library/items/GXHJ5RHP"
+        }
+      ],
+      "notes": [],
+      "itemKey": "U9QXNH8G",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/U9QXNH8G"
+    },
+    {
+      "key": "Q2G2AH4C",
+      "version": 4062,
+      "itemType": "journalArticle",
+      "title": "Digitisation of herbarium specimens to the benefit of research: An African perspective focusing on South Africa and Western Indian Ocean Island states",
+      "abstractNote": "Societal Impact Statement Botanical exploration, discovery and conservation rely heavily on access to herbarium collections. Recently, digital access to label information, including georeferenced locality data, and images of herbarium specimens available online, have greatly increased usage of herbarium specimen data. However, access to online resources from African herbaria is lacking, despite being critical for promoting local and global research and conservation. Here, we explore digital access to herbarium collections from South Africa and Western Indian Ocean Islands and call on all African countries to unite and collectively find innovative ways of digitising and mobilising data from our botanical collections. Some excellent examples of such endeavours already exist. Summary Herbarium digitisation?transcribing and imaging specimens?is revolutionising biodiversity research by accelerating the description of species new to science, enhancing conservation assessments, and informing policy to address global challenges like climate change and biodiversity loss. Digitised herbarium data underpin critical research, such as alpha taxonomy, IUCN Red List assessments and mapping ecosystems. The historical legacy of botanical exploration has left many African specimens in herbaria located in the Northern Hemisphere, where large digitisation efforts are making data from these collections available online. A brief overview of some of these initiatives, as well as the history of digitisation of herbarium collections in South Africa and the Western Indian Ocean Islands, is provided, where projects such as the Southern African Botanical Diversity Network, African Plants Initiative, Western Indian Ocean Herbarium Network and Today's Flora for Tomorrow have advanced data mobilisation from African collections. Much work is still required towards digitising the collections held in herbaria across Africa; however, African herbaria face barriers that inhibit digitisation, such as limited funding, capacity and physical and digital infrastructure. This imbalance hinders the continent's ability to effectively meet goals like those of the Kunming-Montreal Global Biodiversity Framework. We urge African nations to unite in collaborative networks and harness innovative technologies like artificial intelligence to accelerate digitisation and mobilise herbarium data. This will empower the continent to comprehensively assess its plant biodiversity and implement robust conservation strategies before critical opportunities are lost.",
+      "date": "2025-10-24",
+      "shortTitle": "Digitisation of herbarium specimens to the benefit of research",
+      "libraryCatalog": "nph.onlinelibrary.wiley.com (Atypon)",
+      "url": "https://nph.onlinelibrary.wiley.com/doi/full/10.1002/ppp3.70117",
+      "accessDate": "2026-02-20T06:32:15Z",
+      "publisher": "John Wiley & Sons, Ltd",
+      "publicationTitle": "PLANTS, PEOPLE, PLANET",
+      "DOI": "10.1002/ppp3.70117",
+      "citationKey": "klopper2025",
+      "creators": [
+        {
+          "firstName": "Ronell R.",
+          "lastName": "Klopper",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hester M.",
+          "lastName": "Steyn",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Cláudia",
+          "lastName": "Baider",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Benny",
+          "lastName": "Bytebier",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anisha",
+          "lastName": "Dayaram",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "F. B. Vincent",
+          "lastName": "Florens",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nivohenintsoa",
+          "lastName": "Rakotonirina",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Domitilla",
+          "lastName": "Raimondo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marc",
+          "lastName": "Sosef",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M. Marianne",
+          "lastName": "le Roux",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "functional traits",
+          "type": 1
+        },
+        {
+          "tag": "policy",
+          "type": 1
+        },
+        {
+          "tag": "biogeography",
+          "type": 1
+        },
+        {
+          "tag": "conservation",
+          "type": 1
+        },
+        {
+          "tag": "ecology",
+          "type": 1
+        },
+        {
+          "tag": "Global Biodiversity Framework",
+          "type": 1
+        },
+        {
+          "tag": "museum collections",
+          "type": 1
+        },
+        {
+          "tag": "Red List",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2026-02-20T06:32:16Z",
+      "dateModified": "2026-04-20T20:31:03Z",
+      "uri": "http://zotero.org/users/14346239/items/Q2G2AH4C",
+      "itemID": 1004,
+      "attachments": [],
+      "notes": [],
+      "itemKey": "Q2G2AH4C",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/Q2G2AH4C"
+    },
+    {
+      "key": "96UM7D4X",
+      "version": 3883,
+      "itemType": "book",
+      "title": "3.2 Data structures | An Introduction to R",
+      "abstractNote": "A practical introduction to using R for data analysis",
+      "libraryCatalog": "intro2r.com",
+      "url": "https://intro2r.com/data-structures.html",
+      "accessDate": "2026-04-09T13:45:12Z",
+      "citationKey": "lusseau",
+      "creators": [
+        {
+          "firstName": "Alex Douglas, Deon Roos, Francesca Mancini, Ana Couto & David",
+          "lastName": "Lusseau",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-09T13:45:12Z",
+      "dateModified": "2026-04-09T13:45:12Z",
+      "uri": "http://zotero.org/users/14346239/items/96UM7D4X",
+      "itemID": 1146,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://intro2r.com/data-structures.html",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-09T13:45:13Z",
+          "dateModified": "2026-04-09T13:45:13Z",
+          "uri": "http://zotero.org/users/14346239/items/YWS3UIPM",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\YWS3UIPM\\data-structures.html",
+          "select": "zotero://select/library/items/YWS3UIPM"
+        }
+      ],
+      "notes": [
+        {
+          "key": "YL7NNPKQ",
+          "version": 3885,
+          "itemType": "note",
+          "parentItem": "96UM7D4X",
+          "note": "<div data-schema-version=\"9\"><p><span style=\"color: rgb(31, 35, 40)\"><span style=\"background-color: rgb(255, 255, 255)\">Douglas, A., Roos, D., Mancini, F., Couto, A., &amp; Lusseau, D. (2025). An Introduction to R.&nbsp;</span></span><u><span style=\"color: rgb(9, 105, 218)\"><span style=\"background-color: rgb(255, 255, 255)\"><a href=\"https://doi.org/10.5281/zenodo.17866369\" rel=\"noopener noreferrer nofollow\">https://doi.org/10.5281/zenodo.17866369</a></span></span></u></p>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-09T13:48:08Z",
+          "dateModified": "2026-04-09T13:48:11Z",
+          "uri": "http://zotero.org/users/14346239/items/YL7NNPKQ"
+        }
+      ],
+      "itemKey": "96UM7D4X",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/96UM7D4X"
+    },
+    {
+      "key": "5466PSVA",
+      "version": 4072,
+      "itemType": "computerProgram",
+      "title": "diptest: Hartigan's Dip Test Statistic for Unimodality - Corrected",
+      "abstractNote": "Compute Hartigan's dip test statistic for unimodality / multimodality and provide a test with simulation based p-values, where the original public code has been corrected.",
+      "date": "2025-08-20",
+      "shortTitle": "diptest",
+      "libraryCatalog": "R-Packages",
+      "url": "https://cran.r-project.org/web/packages/diptest/index.html",
+      "accessDate": "2026-04-03T22:42:08Z",
+      "rights": "GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]",
+      "versionNumber": "0.77-2",
+      "citationKey": "maechler2025",
+      "creators": [
+        {
+          "firstName": "Martin",
+          "lastName": "Maechler",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Dario",
+          "lastName": "Ringach",
+          "creatorType": "programmer"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-03T22:42:08Z",
+      "dateModified": "2026-04-20T20:36:42Z",
+      "uri": "http://zotero.org/users/14346239/items/5466PSVA",
+      "itemID": 1128,
+      "attachments": [],
+      "notes": [],
+      "itemKey": "5466PSVA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/5466PSVA"
+    },
+    {
+      "key": "BRYGQ8VM",
+      "version": 3471,
+      "itemType": "journalArticle",
+      "title": "Patterns and biases in an Arctic herbarium specimen collection: Implications for phenological research",
+      "abstractNote": "Premise of the Study Herbarium specimens are increasingly used in phenological studies. However, natural history collections can have biases that influence the analysis of phenological events. Arctic environments, where remoteness and cold climate govern collection logistics, may give rise to unique or pronounced biases. Methods We assessed the presence of biases in time, space, phenological events, collectors, taxonomy, and plant traits across Nunavut using herbarium specimens accessioned at the National Herbarium of Canada (CAN). Results We found periods of high and low collection that corresponded to societal and institutional events; greater collection density close to common points of air and sea access; and preferences to collect plants at the flowering phase and in peak flower, and to collect particular taxa, flower colours, growth forms, and plant heights. One-quarter of collectors contributed 90% of the collection. Discussion Collections influenced by temporal and spatial biases have the potential to misrepresent phenology across space and time, whereas those shaped by the interests of collectors or the tendency to favour particular phenological stages, taxa, and plant traits could give rise to imbalanced phenological comparisons. Underlying collection patterns may vary among regions and institutions. To guide phenological analyses, we recommend routine assessment of any herbarium data set prior to its use.",
+      "date": "2019",
+      "language": "en",
+      "shortTitle": "Patterns and biases in an Arctic herbarium specimen collection",
+      "libraryCatalog": "Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/aps3.1229",
+      "accessDate": "2026-02-20T09:07:10Z",
+      "extra": "_eprint: https://bsapubs.onlinelibrary.wiley.com/doi/pdf/10.1002/aps3.1229",
+      "volume": "7",
+      "pages": "e01229",
+      "publicationTitle": "Applications in Plant Sciences",
+      "DOI": "10.1002/aps3.1229",
+      "citationKey": "panchen2019",
+      "issue": "3",
+      "ISSN": "2168-0450",
+      "creators": [
+        {
+          "firstName": "Zoe A.",
+          "lastName": "Panchen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jennifer",
+          "lastName": "Doubt",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Heather M.",
+          "lastName": "Kharouba",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mark O.",
+          "lastName": "Johnston",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "phenology",
+          "type": 1
+        },
+        {
+          "tag": "Arctic",
+          "type": 1
+        },
+        {
+          "tag": "collection biases",
+          "type": 1
+        },
+        {
+          "tag": "collection preferences",
+          "type": 1
+        },
+        {
+          "tag": "herbarium specimen",
+          "type": 1
+        },
+        {
+          "tag": "Nunavut",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2026-02-20T09:07:10Z",
+      "dateModified": "2026-02-20T09:07:10Z",
+      "uri": "http://zotero.org/users/14346239/items/BRYGQ8VM",
+      "itemID": 1017,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "url": "https://bsapubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aps3.1229",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-20T09:07:11Z",
+          "dateModified": "2026-02-20T09:07:11Z",
+          "uri": "http://zotero.org/users/14346239/items/4W4V4BP4",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\4W4V4BP4\\Panchen et al. - 2019 - Patterns and biases in an Arctic herbarium specimen collection Implications for phenological resear.pdf",
+          "select": "zotero://select/library/items/4W4V4BP4"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/aps3.1229",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-20T09:07:10Z",
+          "dateModified": "2026-02-20T09:07:10Z",
+          "uri": "http://zotero.org/users/14346239/items/YZ9KA6MY",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\YZ9KA6MY\\aps3.html",
+          "select": "zotero://select/library/items/YZ9KA6MY"
+        }
+      ],
+      "notes": [],
+      "itemKey": "BRYGQ8VM",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/BRYGQ8VM"
+    },
+    {
+      "key": "VSYXIV6R",
+      "version": 3890,
+      "itemType": "webpage",
+      "title": "Python Class Constructors: Control Your Object Instantiation – Real Python",
+      "abstractNote": "In this tutorial, you'll learn how class constructors work in Python. You'll also explore Python's instantiation process, which has two main steps: instance creation and instance initialization.",
+      "language": "en",
+      "shortTitle": "Python Class Constructors",
+      "url": "https://realpython.com/python-class-constructor/",
+      "accessDate": "2026-04-10T01:05:20Z",
+      "citationKey": "python",
+      "creators": [
+        {
+          "firstName": "Real",
+          "lastName": "Python",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-10T01:05:20Z",
+      "dateModified": "2026-04-10T01:05:20Z",
+      "uri": "http://zotero.org/users/14346239/items/VSYXIV6R",
+      "itemID": 1152,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://realpython.com/python-class-constructor/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-10T01:05:25Z",
+          "dateModified": "2026-04-10T01:05:25Z",
+          "uri": "http://zotero.org/users/14346239/items/QVD23I6H",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\QVD23I6H\\python-class-constructor.html",
+          "select": "zotero://select/library/items/QVD23I6H"
+        }
+      ],
+      "notes": [],
+      "itemKey": "VSYXIV6R",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/VSYXIV6R"
+    },
+    {
+      "key": "PSWMCRPW",
+      "version": 3481,
+      "itemType": "webpage",
+      "title": "csv — CSV File Reading and Writing",
+      "abstractNote": "Source code: Lib/csv.py The so-called CSV (Comma Separated Values) format is the most common import and export format for spreadsheets and databases. CSV format was used for many years prior to att...",
+      "date": "02/22/2026",
+      "language": "en",
+      "url": "https://docs.python.org/3/library/csv.html",
+      "accessDate": "2026-02-23T01:02:05Z",
+      "extra": "Version: 3.14.3",
+      "citationKey": "pythonsoftwarefoundation2026",
+      "websiteTitle": "Python documentation",
+      "creators": [
+        {
+          "firstName": "",
+          "lastName": "Python Software Foundation",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-02-23T01:02:05Z",
+      "dateModified": "2026-02-23T01:12:01Z",
+      "uri": "http://zotero.org/users/14346239/items/PSWMCRPW",
+      "itemID": 1020,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://docs.python.org/3/library/csv.html",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-23T01:02:10Z",
+          "dateModified": "2026-02-23T01:02:10Z",
+          "uri": "http://zotero.org/users/14346239/items/3GULS36K",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\3GULS36K\\csv.html",
+          "select": "zotero://select/library/items/3GULS36K"
+        }
+      ],
+      "notes": [],
+      "itemKey": "PSWMCRPW",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/PSWMCRPW"
+    },
+    {
+      "key": "TUB93NVA",
+      "version": 3503,
+      "itemType": "webpage",
+      "title": "statistics — Mathematical statistics functions",
+      "abstractNote": "Source code: Lib/statistics.py This module provides functions for calculating mathematical statistics of numeric ( Real-valued) data. The module is not intended to be a competitor to third-party li...",
+      "date": "02/22/2026",
+      "language": "en",
+      "url": "https://docs.python.org/3/library/statistics.html",
+      "accessDate": "2026-02-23T02:44:01Z",
+      "extra": "Version: 3.14.3",
+      "citationKey": "pythonsoftwarefoundation2026a",
+      "websiteTitle": "Python documentation",
+      "creators": [
+        {
+          "firstName": "",
+          "lastName": "Python Software Foundation",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-02-23T02:44:01Z",
+      "dateModified": "2026-02-23T03:02:30Z",
+      "uri": "http://zotero.org/users/14346239/items/TUB93NVA",
+      "itemID": 1028,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://docs.python.org/3/library/statistics.html",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-23T02:44:05Z",
+          "dateModified": "2026-02-23T02:44:05Z",
+          "uri": "http://zotero.org/users/14346239/items/ESZIYS2I",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\ESZIYS2I\\statistics.html",
+          "select": "zotero://select/library/items/ESZIYS2I"
+        }
+      ],
+      "notes": [],
+      "itemKey": "TUB93NVA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/TUB93NVA"
+    },
+    {
+      "key": "BGK3YGWA",
+      "version": 4063,
+      "itemType": "journalArticle",
+      "title": "The collector practices that shape spatial, temporal, and taxonomic bias in herbaria",
+      "abstractNote": "Summary\n            \n              \n                \n                  Natural history collections (NHCs) are essential for studying biodiversity. Although spatial, temporal, and taxonomic biases in NHCs affect analyses, the influence of collector practices on biases remains largely unexplored.\n                \n                \n                  \n                    We utilized one million digitized specimens collected in the northeastern United States by\n                    c.\n                    10 000 collectors to investigate how collector practices shape spatial, temporal, and taxonomic biases in NHCs; and similarities and differences between practices of more‐ and less‐prolific collectors.\n                  \n                \n                \n                  We identified six common collector practices, or collection norms: collectors generally collected different species, from multiple locations, from sites sampled by others, during the principal growing season, species identifiable outside peak collecting months, and species from species‐poor families and genera. Some norms changed over decades, with different taxa favored during different periods. Collection norms have increased taxonomic coverage in NHCs; however, collectors typically avoided large, taxonomically complex groups, causing their underrepresentation in NHCs. Less‐prolific collectors greatly enhanced coverage by collecting during more months and from less‐sampled locations.\n                \n                \n                  We assert that overall collection biases are shaped by shared predictable collection norms rather than random practices of individual collectors. Predictable biases offer an opportunity to more effectively address biases in future biodiversity models.\n                \n              \n            \n          , \n            Resumen\n            \n              \n                \n                  Las colecciones de historia natural (CHNs) son esenciales para estudiar biodiversidad. No obstante, aunque es conocida la influencia que tienen en los análisis las prácticas de los recolectores en relación a los sesgos espaciales, temporales, y taxonómicos en CHNs, estos sesgos permanecen todavía ampliamente inexplorados.\n                \n                \n                  \n                    En nuestro estudio utilizamos un millón de especímenes digitales que fueron recolectados en el noreste de los Estados Unidos por\n                    c.\n                    10.000 recolectores para investigar cómo las prácticas de los recolectores modelan los sesgos espaciales, temporales, y taxonómicos en las CHNs y las similitudes y disimilitudes entre las prácticas de los recolectores más y menos prolíficos.\n                  \n                \n                \n                  Identificamos seis practicas comunes de los recolectores o ‘normas de recolección’: generalmente los recolectores recolectaron especies diferentes, en múltiples localidades, en localidades ya muestreadas por otros, durante la estación principal de crecimiento, especies que pueden ser identificadas fuera de los meses pico de recolección, y especies procedentes de familias y géneros pauciespecíficos. Algunas normas cambiaron a lo largo de las décadas, con diferentes taxones favorecidos en distintos momentos. Las normas de recolección han aumentado la cobertura taxonómica en CHNs, sin embargo, los recolectores normalmente evitaban grupos amplios y taxonómicamente complejos, lo que ha causado su infrarrepresentación en las CHNs. Los colectores menos prolíficos han mejorado la cobertura recolectando durante más meses y en localidades menos muestreadas.\n                \n                \n                  Confirmamos, en general que los sesgos de recolección han sido influenciados más por normas de recolección comunes y previsibles que por prácticas aleatorias de recolectores individuales. La previsión de sesgos ofrece una oportunidad para abordar en el futuro de manera más efectiva los sesgos en modelos de biodiversidad.",
+      "date": "2025-06-19",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70297",
+      "accessDate": "2025-09-13T15:17:19Z",
+      "publicationTitle": "New Phytologist",
+      "DOI": "10.1111/nph.70297",
+      "citationKey": "schmidt2025",
+      "journalAbbreviation": "New Phytologist",
+      "ISSN": "0028-646X, 1469-8137",
+      "creators": [
+        {
+          "firstName": "Ryan J.",
+          "lastName": "Schmidt",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kristen E.",
+          "lastName": "Saban",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lena",
+          "lastName": "Struwe",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Charles C.",
+          "lastName": "Davis",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-09-13T15:17:19Z",
+      "dateModified": "2026-04-20T20:31:27Z",
+      "uri": "http://zotero.org/users/14346239/items/BGK3YGWA",
+      "itemID": 734,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-09-13T17:25:49Z",
+          "dateModified": "2025-09-13T17:25:49Z",
+          "uri": "http://zotero.org/users/14346239/items/839DMED8",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\839DMED8\\Schmidt et al. - 2025 - The collector practices that shape spatial, temporal, and taxonomic bias in herbaria.pdf",
+          "select": "zotero://select/library/items/839DMED8"
+        }
+      ],
+      "notes": [],
+      "itemKey": "BGK3YGWA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/BGK3YGWA"
+    },
+    {
+      "key": "TMXHSAHB",
+      "version": 4047,
+      "itemType": "journalArticle",
+      "title": "Ten lessons learned from the mass digitisation of a herbarium collection",
+      "abstractNote": "Worldwide, herbaria maintain collections of reference specimens representing global plant diversity. These collections are a valuable resource for fundamental botanical research and applied scientific research across various disciplines, and play a significant role in addressing major societal challenges such as biodiversity conservation. The digitisation of herbarium specimens and their online dissemination is one of the most important recent developments in the curation of these collections. Digitisation significantly enhances access to the collections for the research community and facilitates large-scale analysis of biodiversity data. Digitisation also provides a means for preserving the physical specimens, as it reduces the need for handling and transportation. Rapid technological developments have greatly accelerated the rate of databasing and digital imaging of collections. Meise Botanic Garden recently completed a six-year project to mass digitise its herbarium collections of about 3 million specimens mounted on sheets and through this process we have learned valuable lessons. We have captured our experience in 10 recommendations for other collection-holding institutions to take inspiration from as they start planning their own digitisation efforts. We also present case studies where we delve deeper into certain topics as examples.",
+      "date": "2024/07/02",
+      "language": "en",
+      "libraryCatalog": "phytokeys.pensoft.net",
+      "url": "https://phytokeys.pensoft.net/article/120112/",
+      "accessDate": "2026-02-20T06:21:18Z",
+      "rights": "2024 Sofie De Smedt, Ann Bogaerts, Niko De Meeter, Mathias Dillen, Henry Engledow, Paul Van Wambeke, Frederik Leliaert, Quentin Groom",
+      "volume": "244",
+      "publisher": "Pensoft Publishers",
+      "pages": "23-37",
+      "publicationTitle": "PhytoKeys",
+      "DOI": "10.3897/phytokeys.244.120112",
+      "citationKey": "smedt2024",
+      "ISSN": "1314-2003, 1314-2011",
+      "creators": [
+        {
+          "firstName": "Sofie De",
+          "lastName": "Smedt",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ann",
+          "lastName": "Bogaerts",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Niko De",
+          "lastName": "Meeter",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mathias",
+          "lastName": "Dillen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Henry",
+          "lastName": "Engledow",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Paul Van",
+          "lastName": "Wambeke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Frederik",
+          "lastName": "Leliaert",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Quentin",
+          "lastName": "Groom",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-02-20T06:21:18Z",
+      "dateModified": "2026-02-20T06:21:18Z",
+      "uri": "http://zotero.org/users/14346239/items/TMXHSAHB",
+      "itemID": 1002,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "url": "https://phytokeys.pensoft.net/article/120112/download/pdf/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-20T06:21:23Z",
+          "dateModified": "2026-02-20T06:21:23Z",
+          "uri": "http://zotero.org/users/14346239/items/Q8X9C9ZP",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\Q8X9C9ZP\\Smedt et al. - 2024 - Ten lessons learned from the mass digitisation of a herbarium collection.pdf",
+          "select": "zotero://select/library/items/Q8X9C9ZP"
+        }
+      ],
+      "notes": [],
+      "itemKey": "TMXHSAHB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/TMXHSAHB"
+    },
+    {
+      "key": "GXAB7BNR",
+      "version": 4047,
+      "itemType": "journalArticle",
+      "title": "Digitization of herbaria enables novel research",
+      "date": "2017",
+      "libraryCatalog": "JSTOR",
+      "url": "https://www.jstor.org/stable/26641647",
+      "accessDate": "2026-02-20T06:20:29Z",
+      "volume": "104",
+      "publisher": "Wiley",
+      "pages": "1281-1284",
+      "publicationTitle": "American Journal of Botany",
+      "citationKey": "soltis2017",
+      "issue": "9",
+      "ISSN": "0002-9122",
+      "creators": [
+        {
+          "firstName": "Pamela S.",
+          "lastName": "Soltis",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-02-20T06:20:29Z",
+      "dateModified": "2026-02-20T06:20:29Z",
+      "uri": "http://zotero.org/users/14346239/items/GXAB7BNR",
+      "itemID": 1000,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "url": "https://www.jstor.org/stable/pdf/26641647",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-20T06:20:30Z",
+          "dateModified": "2026-02-20T06:20:30Z",
+          "uri": "http://zotero.org/users/14346239/items/7V9SHTB7",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\7V9SHTB7\\Soltis - 2017 - Digitization of herbaria enables novel research.pdf",
+          "select": "zotero://select/library/items/7V9SHTB7"
+        }
+      ],
+      "notes": [],
+      "itemKey": "GXAB7BNR",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/GXAB7BNR"
+    },
+    {
+      "key": "H5VDNJ6V",
+      "version": 4055,
+      "itemType": "journalArticle",
+      "title": "An update of the Angiosperm Phylogeny Group classification for the orders and families of flowering plants: APG IV",
+      "abstractNote": "An update of the Angiosperm Phylogeny Group (APG) classification of the orders and families of angiosperms is presented. Several new orders are recognized: Boraginales, Dilleniales, Icacinales, Metteniusiales and Vahliales. This brings the total number of orders and families recognized in the APG system to 64 and 416, respectively. We propose two additional informal major clades, superrosids and superasterids, that each comprise the additional orders that are included in the larger clades dominated by the rosids and asterids. Families that made up potentially monofamilial orders, Dasypogonaceae and Sabiaceae, are instead referred to Arecales and Proteales, respectively. Two parasitic families formerly of uncertain positions are now placed: Cynomoriaceae in Saxifragales and Apodanthaceae in Cucurbitales. Although there is evidence that some families recognized in APG III are not monophyletic, we make no changes in Dioscoreales and Santalales relative to APG III and leave some genera in Lamiales unplaced (e.g. Peltanthera). These changes in familial circumscription and recognition have all resulted from new results published since APG III, except for some changes simply due to nomenclatural issues, which include substituting Asphodelaceae for Xanthorrhoeaceae (Asparagales) and Francoaceae for Melianthaceae (Geraniales); however, in Francoaceae we also include Bersamaceae, Ledocarpaceae, Rhynchothecaceae and Vivianiaceae. Other changes to family limits are not drastic or numerous and are mostly focused on some members of the lamiids, especially the former Icacinaceae that have long been problematic with several genera moved to the formerly monogeneric Metteniusaceae, but minor changes in circumscription include Aristolochiaceae (now including Lactoridaceae and Hydnoraceae; Aristolochiales), Maundiaceae (removed from Juncaginaceae; Alismatales), Restionaceae (now re-including Anarthriaceae and Centrolepidaceae; Poales), Buxaceae (now including Haptanthaceae; Buxales), Peraceae (split from Euphorbiaceae; Malpighiales), recognition of Petenaeaceae (Huerteales), Kewaceae, Limeaceae, Macarthuriaceae and Microteaceae (all Caryophyllales), Petiveriaceae split from Phytolaccaceae (Caryophyllales), changes to the generic composition of Ixonanthaceae and Irvingiaceae (with transfer of Allantospermum from the former to the latter; Malpighiales), transfer of Pakaraimaea (formerly Dipterocarpaceae) to Cistaceae (Malvales), transfer of Borthwickia, Forchhammeria, Stixis and Tirania (formerly all Capparaceae) to Resedaceae (Brassicales), Nyssaceae split from Cornaceae (Cornales), Pteleocarpa moved to Gelsemiaceae (Gentianales), changes to the generic composition of Gesneriaceae (Sanango moved from Loganiaceae) and Orobanchaceae (now including Lindenbergiaceae and Rehmanniaceae) and recognition of Mazaceae distinct from Phrymaceae (all Lamiales).",
+      "date": "2016-05-01",
+      "shortTitle": "An update of the Angiosperm Phylogeny Group classification for the orders and families of flowering plants",
+      "libraryCatalog": "Silverchair",
+      "url": "https://doi.org/10.1111/boj.12385",
+      "accessDate": "2026-04-03T22:45:04Z",
+      "volume": "181",
+      "pages": "1-20",
+      "publicationTitle": "Botanical Journal of the Linnean Society",
+      "DOI": "10.1111/boj.12385",
+      "citationKey": "theangiospermphylogenygroup2016",
+      "issue": "1",
+      "journalAbbreviation": "Bot J Linn Soc",
+      "ISSN": "0024-4074",
+      "creators": [
+        {
+          "name": "The Angiosperm Phylogeny Group",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M. W.",
+          "lastName": "Chase",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M. J. M.",
+          "lastName": "Christenhusz",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M. F.",
+          "lastName": "Fay",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "J. W.",
+          "lastName": "Byng",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "W. S.",
+          "lastName": "Judd",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "D. E.",
+          "lastName": "Soltis",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "D. J.",
+          "lastName": "Mabberley",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "A. N.",
+          "lastName": "Sennikov",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "P. S.",
+          "lastName": "Soltis",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "P. F.",
+          "lastName": "Stevens",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-03T22:45:04Z",
+      "dateModified": "2026-04-03T22:45:04Z",
+      "uri": "http://zotero.org/users/14346239/items/H5VDNJ6V",
+      "itemID": 1129,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://doi.org/10.1111/boj.12385",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-03T22:45:12Z",
+          "dateModified": "2026-04-03T22:45:12Z",
+          "uri": "http://zotero.org/users/14346239/items/MSKQ4Y96",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\MSKQ4Y96\\boj.html",
+          "select": "zotero://select/library/items/MSKQ4Y96"
+        }
+      ],
+      "notes": [],
+      "itemKey": "H5VDNJ6V",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/H5VDNJ6V"
+    },
+    {
+      "key": "R3BEEESH",
+      "version": 3777,
+      "itemType": "journalArticle",
+      "title": "An update of the Angiosperm Phylogeny Group classification for the orders and families of flowering plants: APG IV",
+      "abstractNote": "An update of the Angiosperm Phylogeny Group (APG) classification of the orders and families of angiosperms is presented. Several new orders are recognized: Boraginales, Dilleniales, Icacinales, Metteniusiales and Vahliales. This brings the total number of orders and families recognized in the APG system to 64 and 416, respectively. We propose two additional informal major clades, superrosids and superasterids, that each comprise the additional orders that are included in the larger clades dominated by the rosids and asterids. Families that made up potentially monofamilial orders, Dasypogonaceae and Sabiaceae, are instead referred to Arecales and Proteales, respectively. Two parasitic families formerly of uncertain positions are now placed: Cynomoriaceae in Saxifragales and Apodanthaceae in Cucurbitales. Although there is evidence that some families recognized in APG III are not monophyletic, we make no changes in Dioscoreales and Santalales relative to APG III and leave some genera in Lamiales unplaced (e.g. Peltanthera). These changes in familial circumscription and recognition have all resulted from new results published since APG III, except for some changes simply due to nomenclatural issues, which include substituting Asphodelaceae for Xanthorrhoeaceae (Asparagales) and Francoaceae for Melianthaceae (Geraniales); however, in Francoaceae we also include Bersamaceae, Ledocarpaceae, Rhynchothecaceae and Vivianiaceae. Other changes to family limits are not drastic or numerous and are mostly focused on some members of the lamiids, especially the former Icacinaceae that have long been problematic with several genera moved to the formerly monogeneric Metteniusaceae, but minor changes in circumscription include Aristolochiaceae (now including Lactoridaceae and Hydnoraceae; Aristolochiales), Maundiaceae (removed from Juncaginaceae; Alismatales), Restionaceae (now re-including Anarthriaceae and Centrolepidaceae; Poales), Buxaceae (now including Haptanthaceae; Buxales), Peraceae (split from Euphorbiaceae; Malpighiales), recognition of Petenaeaceae (Huerteales), Kewaceae, Limeaceae, Macarthuriaceae and Microteaceae (all Caryophyllales), Petiveriaceae split from Phytolaccaceae (Caryophyllales), changes to the generic composition of Ixonanthaceae and Irvingiaceae (with transfer of Allantospermum from the former to the latter; Malpighiales), transfer of Pakaraimaea (formerly Dipterocarpaceae) to Cistaceae (Malvales), transfer of Borthwickia, Forchhammeria, Stixis and Tirania (formerly all Capparaceae) to Resedaceae (Brassicales), Nyssaceae split from Cornaceae (Cornales), Pteleocarpa moved to Gelsemiaceae (Gentianales), changes to the generic composition of Gesneriaceae (Sanango moved from Loganiaceae) and Orobanchaceae (now including Lindenbergiaceae and Rehmanniaceae) and recognition of Mazaceae distinct from Phrymaceae (all Lamiales).",
+      "date": "2016-05-01",
+      "shortTitle": "An update of the Angiosperm Phylogeny Group classification for the orders and families of flowering plants",
+      "libraryCatalog": "Silverchair",
+      "url": "https://doi.org/10.1111/boj.12385",
+      "accessDate": "2026-03-25T18:04:44Z",
+      "volume": "181",
+      "pages": "1-20",
+      "publicationTitle": "Botanical Journal of the Linnean Society",
+      "DOI": "10.1111/boj.12385",
+      "citationKey": "theangiospermphylogenygroup2016b",
+      "issue": "1",
+      "journalAbbreviation": "Bot J Linn Soc",
+      "ISSN": "0024-4074",
+      "creators": [
+        {
+          "name": "The Angiosperm Phylogeny Group",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M. W.",
+          "lastName": "Chase",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M. J. M.",
+          "lastName": "Christenhusz",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "M. F.",
+          "lastName": "Fay",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "J. W.",
+          "lastName": "Byng",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "W. S.",
+          "lastName": "Judd",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "D. E.",
+          "lastName": "Soltis",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "D. J.",
+          "lastName": "Mabberley",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "A. N.",
+          "lastName": "Sennikov",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "P. S.",
+          "lastName": "Soltis",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "P. F.",
+          "lastName": "Stevens",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-03-25T18:04:44Z",
+      "dateModified": "2026-03-25T18:04:44Z",
+      "uri": "http://zotero.org/users/14346239/items/R3BEEESH",
+      "itemID": 1124,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-03-25T18:04:57Z",
+          "dateModified": "2026-03-25T18:04:57Z",
+          "uri": "http://zotero.org/users/14346239/items/N7BT9C3H",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\N7BT9C3H\\The Angiosperm Phylogeny Group et al. - 2016 - An update of the Angiosperm Phylogeny Group classification for the orders and families of flowering.pdf",
+          "select": "zotero://select/library/items/N7BT9C3H"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://doi.org/10.1111/boj.12385",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-03-25T18:04:53Z",
+          "dateModified": "2026-03-25T18:04:53Z",
+          "uri": "http://zotero.org/users/14346239/items/7X2WUB2J",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\7X2WUB2J\\boj.html",
+          "select": "zotero://select/library/items/7X2WUB2J"
+        }
+      ],
+      "notes": [],
+      "itemKey": "R3BEEESH",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/R3BEEESH"
+    },
+    {
+      "key": "YZWF58I3",
+      "version": 4077,
+      "itemType": "webpage",
+      "title": "Index Herbariorum",
+      "abstractNote": "Index Herbariorum herbarium details",
+      "date": "updated continuously",
+      "language": "en-US",
+      "url": "https://sweetgum.nybg.org/science/ih/",
+      "accessDate": "2025-11-23T19:21:51Z",
+      "citationKey": "thiersupdatedcontinuously",
+      "creators": [
+        {
+          "firstName": "Barbara",
+          "lastName": "Thiers",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-11-23T19:21:51Z",
+      "dateModified": "2025-11-23T19:26:29Z",
+      "uri": "http://zotero.org/users/14346239/items/YZWF58I3",
+      "itemID": 946,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://sweetgum.nybg.org/science/ih/herbarium-details/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-11-23T19:21:57Z",
+          "dateModified": "2025-11-23T19:21:57Z",
+          "uri": "http://zotero.org/users/14346239/items/DKMN56F6",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\DKMN56F6\\herbarium-details.html",
+          "select": "zotero://select/library/items/DKMN56F6"
+        }
+      ],
+      "notes": [
+        {
+          "key": "ZYCAQUCB",
+          "version": 3284,
+          "itemType": "note",
+          "parentItem": "YZWF58I3",
+          "note": "<div data-schema-version=\"9\"><p><span style=\"color: rgb(0, 0, 0)\"><span style=\"background-color: rgb(255, 255, 255)\">Thiers, B. M. (updated continuously).&nbsp;&nbsp;</span></span><em><span style=\"color: rgb(0, 0, 0)\"><span style=\"background-color: rgb(255, 255, 255)\">Index Herbariorum.&nbsp;</span></span></em><span style=\"color: rgb(0, 0, 0)\"><span style=\"background-color: rgb(255, 255, 255)\">&nbsp;</span></span><u><span style=\"color: rgb(0, 0, 0)\"><span style=\"background-color: rgb(255, 255, 255)\"><a href=\"https://sweetgum.nybg.org/science/ih/\" title=\"https://sweetgum.nybg.org/science/ih/\" rel=\"noopener noreferrer nofollow\">https://sweetgum.nybg.org/science/ih/</a></span></span></u></p>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-11-23T19:27:05Z",
+          "dateModified": "2025-11-23T19:27:22Z",
+          "uri": "http://zotero.org/users/14346239/items/ZYCAQUCB"
+        }
+      ],
+      "itemKey": "YZWF58I3",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/YZWF58I3"
+    },
+    {
+      "key": "WAXW2ZF5",
+      "version": 4036,
+      "itemType": "computerProgram",
+      "title": "tidyverse: Easily Install and Load the 'Tidyverse'",
+      "abstractNote": "The 'tidyverse' is a set of packages that work in harmony because they share common data representations and 'API' design. This package is designed to make it easy to install and load multiple 'tidyverse' packages in a single step. Learn more about the 'tidyverse' at <https://www.tidyverse.org>.",
+      "date": "2023-02-22",
+      "shortTitle": "tidyverse",
+      "libraryCatalog": "R-Packages",
+      "url": "https://cran.r-project.org/web/packages/tidyverse/index.html",
+      "accessDate": "2025-11-23T19:58:36Z",
+      "rights": "MIT + file LICENSE",
+      "versionNumber": "2.0.0",
+      "citationKey": "wickham2023",
+      "creators": [
+        {
+          "firstName": "Hadley",
+          "lastName": "Wickham",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "",
+          "lastName": "RStudio",
+          "creatorType": "programmer"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "ChemPhys",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-11-23T19:58:37Z",
+      "dateModified": "2025-11-23T19:58:37Z",
+      "uri": "http://zotero.org/users/14346239/items/WAXW2ZF5",
+      "itemID": 955,
+      "attachments": [],
+      "notes": [],
+      "itemKey": "WAXW2ZF5",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/WAXW2ZF5"
+    },
+    {
+      "key": "NYDV9EP6",
+      "version": 4037,
+      "itemType": "computerProgram",
+      "title": "ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics",
+      "abstractNote": "A system for 'declaratively' creating graphics, based on \"The Grammar of Graphics\". You provide the data, tell 'ggplot2' how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.",
+      "date": "2026-02-03",
+      "shortTitle": "ggplot2",
+      "libraryCatalog": "R-Packages",
+      "url": "https://cran.r-project.org/web/packages/ggplot2/index.html",
+      "accessDate": "2026-04-03T22:40:52Z",
+      "rights": "MIT + file LICENSE",
+      "versionNumber": "4.0.2",
+      "citationKey": "wickham2026",
+      "creators": [
+        {
+          "firstName": "Hadley",
+          "lastName": "Wickham",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Winston",
+          "lastName": "Chang",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Lionel",
+          "lastName": "Henry",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Thomas Lin",
+          "lastName": "Pedersen",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Kohske",
+          "lastName": "Takahashi",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Claus",
+          "lastName": "Wilke",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Kara",
+          "lastName": "Woo",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Hiroaki",
+          "lastName": "Yutani",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Dewey",
+          "lastName": "Dunnington",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "Teun van den",
+          "lastName": "Brand",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "",
+          "lastName": "Posit",
+          "creatorType": "programmer"
+        },
+        {
+          "firstName": "",
+          "lastName": "PBC",
+          "creatorType": "programmer"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "ChemPhys",
+          "type": 1
+        },
+        {
+          "tag": "NetworkAnalysis",
+          "type": 1
+        },
+        {
+          "tag": "Phylogenetics",
+          "type": 1
+        },
+        {
+          "tag": "Spatial",
+          "type": 1
+        },
+        {
+          "tag": "TeachingStatistics",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-03T22:40:52Z",
+      "dateModified": "2026-04-03T22:40:52Z",
+      "uri": "http://zotero.org/users/14346239/items/NYDV9EP6",
+      "itemID": 1127,
+      "attachments": [],
+      "notes": [],
+      "itemKey": "NYDV9EP6",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/NYDV9EP6"
+    },
+    {
+      "key": "HPJLBSKB",
+      "version": 4075,
+      "itemType": "dataset",
+      "title": "DNR Regions",
+      "abstractNote": "Wisconsin DNR's former administrative regions.    While no longer formally recognized as agency-wide administrative regions, the DNR Regions are commonly used for planning purposes across the agency.",
+      "date": "2024",
+      "language": "en-us",
+      "url": "https://data-wi-dnr.opendata.arcgis.com/datasets/dnr-regions/about",
+      "accessDate": "2026-04-03T22:57:48Z",
+      "citationKey": "widnrdatacurator2024",
+      "creators": [
+        {
+          "firstName": "",
+          "lastName": "WI DNR Data Curator",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-03T22:57:48Z",
+      "dateModified": "2026-04-20T20:39:36Z",
+      "uri": "http://zotero.org/users/14346239/items/HPJLBSKB",
+      "itemID": 1140,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://data-wi-dnr.opendata.arcgis.com/datasets/dnr-regions/about",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-03T22:58:01Z",
+          "dateModified": "2026-04-03T22:58:01Z",
+          "uri": "http://zotero.org/users/14346239/items/YWF2876P",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\YWF2876P\\about.html",
+          "select": "zotero://select/library/items/YWF2876P"
+        }
+      ],
+      "notes": [],
+      "itemKey": "HPJLBSKB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/HPJLBSKB"
+    },
+    {
+      "key": "P5Y73IXD",
+      "version": 4059,
+      "itemType": "journalArticle",
+      "title": "Examining Collection Biases Across Different Taxonomic Groups: Understanding How Biases Can Compare Across Herbarium Datasets",
+      "abstractNote": "Specimen-based data are an invaluable resource for an increasing diversity of scientific fields, including global change biology, ecology, evolution, and genetics; however, certain analyses of these data may be limited by the non-random nature of collecting activity. Geographic, temporal, and trait-based collecting biases may consequently affect the understanding of species’ distributions, obviating the need to determine what biases exist and how they may impact further analyses. Trait-based biases were examined in herbarium specimen records of two abundant and diverse families (Asteraceae and Fabaceae) in a well-collected and digitized region (California) by comparing geographic-bias-adjusted simulations of random collections to actual collecting patterns. Collecting biases were fairly similar between families for a number of traits, such as a strong bias against collecting introduced species, while seasonal collecting biases showed a peak in activity in the Spring for both families. However, while there was only a dip in the fall for Asteraceae, Fabaceae were seriously under-collected for the majority of the year. These results demonstrate that significant collecting biases exist and may differ depending on the dataset, highlighting the importance of understanding the dataset and potentially accounting for its sampling limitations.",
+      "date": "2019-3-24",
+      "shortTitle": "Examining Collection Biases Across Different Taxonomic Groups",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "http://www.ajuronline.org/uploads/Volume_15_4/AJUR_Vol_15_Issue_4_p47.pdf",
+      "accessDate": "2025-09-13T18:03:39Z",
+      "volume": "15",
+      "pages": "47-53",
+      "publicationTitle": "American Journal of Undergraduate Research",
+      "DOI": "10.33697/ajur.2019.005",
+      "citationKey": "williams2019",
+      "issue": "4",
+      "journalAbbreviation": "AJUR",
+      "ISSN": "15364585, 23758732",
+      "creators": [
+        {
+          "firstName": "Jordan",
+          "lastName": "Williams",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Katelin",
+          "lastName": "Pearson",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-09-13T18:03:39Z",
+      "dateModified": "2025-09-13T18:03:39Z",
+      "uri": "http://zotero.org/users/14346239/items/P5Y73IXD",
+      "itemID": 736,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text",
+          "url": "https://doi.org/10.33697/ajur.2019.005",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-09-13T18:03:41Z",
+          "dateModified": "2025-09-13T18:03:41Z",
+          "uri": "http://zotero.org/users/14346239/items/YQFA56WI",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\YQFA56WI\\Williams and Pearson - 2019 - Examining Collection Biases Across Different Taxonomic Groups Understanding How Biases Can Compare.pdf",
+          "select": "zotero://select/library/items/YQFA56WI"
+        }
+      ],
+      "notes": [],
+      "itemKey": "P5Y73IXD",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/P5Y73IXD"
+    },
+    {
+      "key": "N8DWUAC8",
+      "version": 4055,
+      "itemType": "journalArticle",
+      "title": "Old Plants, New Tricks: Phenological Research Using Herbarium Specimens",
+      "date": "2017-07-01",
+      "language": "English",
+      "shortTitle": "Old Plants, New Tricks",
+      "libraryCatalog": "www.cell.com",
+      "url": "https://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(17)30093-9",
+      "accessDate": "2026-02-20T09:04:09Z",
+      "volume": "32",
+      "publisher": "Elsevier",
+      "pages": "531-546",
+      "publicationTitle": "Trends in Ecology & Evolution",
+      "DOI": "10.1016/j.tree.2017.03.015",
+      "citationKey": "willis2017",
+      "issue": "7",
+      "journalAbbreviation": "Trends in Ecology & Evolution",
+      "ISSN": "0169-5347",
+      "PMID": "28465044",
+      "creators": [
+        {
+          "firstName": "Charles G.",
+          "lastName": "Willis",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Elizabeth R.",
+          "lastName": "Ellwood",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard B.",
+          "lastName": "Primack",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Charles C.",
+          "lastName": "Davis",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Katelin D.",
+          "lastName": "Pearson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Amanda S.",
+          "lastName": "Gallinat",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jenn M.",
+          "lastName": "Yost",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Gil",
+          "lastName": "Nelson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Susan J.",
+          "lastName": "Mazer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Natalie L.",
+          "lastName": "Rossington",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tim H.",
+          "lastName": "Sparks",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Pamela S.",
+          "lastName": "Soltis",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "climate change",
+          "type": 1
+        },
+        {
+          "tag": "flowering",
+          "type": 1
+        },
+        {
+          "tag": "museums",
+          "type": 1
+        },
+        {
+          "tag": "phenology",
+          "type": 1
+        },
+        {
+          "tag": "plants",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2026-02-20T09:04:09Z",
+      "dateModified": "2026-02-20T09:04:09Z",
+      "uri": "http://zotero.org/users/14346239/items/N8DWUAC8",
+      "itemID": 1014,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text",
+          "url": "https://pure.coventry.ac.uk/ws/files/11016996/TREE.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-20T09:04:14Z",
+          "dateModified": "2026-02-20T09:04:14Z",
+          "uri": "http://zotero.org/users/14346239/items/4Q5X99Z7",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\4Q5X99Z7\\Willis et al. - 2017 - Old Plants, New Tricks Phenological Research Using Herbarium Specimens.pdf",
+          "select": "zotero://select/library/items/4Q5X99Z7"
+        },
+        {
+          "itemType": "attachment",
+          "title": "PubMed entry",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/28465044",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-20T09:04:10Z",
+          "dateModified": "2026-02-20T09:04:10Z",
+          "uri": "http://zotero.org/users/14346239/items/JK6C6PV3",
+          "select": "zotero://select/library/items/JK6C6PV3"
+        }
+      ],
+      "notes": [],
+      "itemKey": "N8DWUAC8",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/N8DWUAC8"
+    },
+    {
+      "key": "XJDHUX7A",
+      "version": 4055,
+      "itemType": "journalArticle",
+      "title": "Herbarium Specimens May Provide Biased Flowering Phenology Estimates for Dioecious Species",
+      "date": "2022-11-01",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://www.journals.uchicago.edu/doi/10.1086/722294",
+      "accessDate": "2026-02-20T09:03:30Z",
+      "volume": "183",
+      "pages": "777-783",
+      "publicationTitle": "International Journal of Plant Sciences",
+      "DOI": "10.1086/722294",
+      "citationKey": "yang2022",
+      "issue": "9",
+      "journalAbbreviation": "International Journal of Plant Sciences",
+      "ISSN": "1058-5893, 1537-5315",
+      "creators": [
+        {
+          "firstName": "Yong",
+          "lastName": "Yang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "J. Mason",
+          "lastName": "Heberling",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Richard B.",
+          "lastName": "Primack",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Benjamin R.",
+          "lastName": "Lee",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-02-20T09:03:30Z",
+      "dateModified": "2026-02-20T09:03:30Z",
+      "uri": "http://zotero.org/users/14346239/items/XJDHUX7A",
+      "itemID": 1013,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "url": "https://par.nsf.gov/servlets/purl/10392360",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-20T09:03:28Z",
+          "dateModified": "2026-02-20T09:03:31Z",
+          "uri": "http://zotero.org/users/14346239/items/8D6JUGMY",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\8D6JUGMY\\Yang et al. - 2022 - Herbarium Specimens May Provide Biased Flowering Phenology Estimates for Dioecious Species.pdf",
+          "select": "zotero://select/library/items/8D6JUGMY"
+        }
+      ],
+      "notes": [],
+      "itemKey": "XJDHUX7A",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/XJDHUX7A"
+    },
+    {
+      "key": "355Q7ZBY",
+      "version": 4055,
+      "itemType": "journalArticle",
+      "title": "ggtree: an r package for visualization and annotation of phylogenetic trees with their covariates and other associated data",
+      "abstractNote": "We present an r package, ggtree, which provides programmable visualization and annotation of phylogenetic trees. ggtree can read more tree file formats than other softwares, including newick, nexus, NHX, phylip and jplace formats, and support visualization of phylo, multiphylo, phylo4, phylo4d, obkdata and phyloseq tree objects defined in other r packages. It can also extract the tree/branch/node-specific and other data from the analysis outputs of beast, epa, hyphy, paml, phylodog, pplacer, r8s, raxml and revbayes software, and allows using these data to annotate the tree. The package allows colouring and annotation of a tree by numerical/categorical node attributes, manipulating a tree by rotating, collapsing and zooming out clades, highlighting user selected clades or operational taxonomic units and exploration of a large tree by zooming into a selected portion. A two-dimensional tree can be drawn by scaling the tree width based on an attribute of the nodes. A tree can be annotated with an associated numerical matrix (as a heat map), multiple sequence alignment, subplots or silhouette images. The package ggtree is released under the artistic-2.0 license. The source code and documents are freely available through bioconductor (http://www.bioconductor.org/packages/ggtree).",
+      "date": "2017",
+      "language": "en",
+      "shortTitle": "ggtree",
+      "libraryCatalog": "Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12628",
+      "accessDate": "2026-04-03T22:50:12Z",
+      "rights": "© 2016 The Authors. Methods in Ecology and Evolution © 2016 British Ecological Society",
+      "extra": "_eprint: https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.12628",
+      "volume": "8",
+      "pages": "28-36",
+      "publicationTitle": "Methods in Ecology and Evolution",
+      "DOI": "10.1111/2041-210X.12628",
+      "citationKey": "yu2017",
+      "issue": "1",
+      "ISSN": "2041-210X",
+      "creators": [
+        {
+          "firstName": "Guangchuang",
+          "lastName": "Yu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "David K.",
+          "lastName": "Smith",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Huachen",
+          "lastName": "Zhu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yi",
+          "lastName": "Guan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tommy Tsan-Yuk",
+          "lastName": "Lam",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "evolution",
+          "type": 1
+        },
+        {
+          "tag": "annotation",
+          "type": 1
+        },
+        {
+          "tag": "bioconductor",
+          "type": 1
+        },
+        {
+          "tag": "phylogeny",
+          "type": 1
+        },
+        {
+          "tag": "r package",
+          "type": 1
+        },
+        {
+          "tag": "visualization",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-03T22:50:12Z",
+      "dateModified": "2026-04-03T22:50:12Z",
+      "uri": "http://zotero.org/users/14346239/items/355Q7ZBY",
+      "itemID": 1133,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Full Text PDF",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.12628",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-03T22:50:14Z",
+          "dateModified": "2026-04-03T22:50:14Z",
+          "uri": "http://zotero.org/users/14346239/items/FVAKDBTB",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\FVAKDBTB\\Yu et al. - 2017 - ggtree an r package for visualization and annotation of phylogenetic trees with their covariates an.pdf",
+          "select": "zotero://select/library/items/FVAKDBTB"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12628",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-03T22:50:21Z",
+          "dateModified": "2026-04-03T22:50:21Z",
+          "uri": "http://zotero.org/users/14346239/items/363Y56DQ",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\363Y56DQ\\2041-210X.html",
+          "select": "zotero://select/library/items/363Y56DQ"
+        }
+      ],
+      "notes": [],
+      "itemKey": "355Q7ZBY",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/355Q7ZBY"
+    },
+    {
+      "key": "4S2YUIL6",
+      "version": 3488,
+      "itemType": "webpage",
+      "title": "The Comprehensive R Archive Network",
+      "url": "https://cran.r-project.org/",
+      "accessDate": "2026-02-23T01:24:16Z",
+      "citationKey": "zotero-item-1025",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-02-23T01:24:16Z",
+      "dateModified": "2026-02-23T01:24:16Z",
+      "uri": "http://zotero.org/users/14346239/items/4S2YUIL6",
+      "itemID": 1025,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "The Comprehensive R Archive Network",
+          "url": "https://cran.r-project.org/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-23T01:24:17Z",
+          "dateModified": "2026-02-23T01:24:17Z",
+          "uri": "http://zotero.org/users/14346239/items/PEUHKD6M",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\PEUHKD6M\\cran.r-project.org.html",
+          "select": "zotero://select/library/items/PEUHKD6M"
+        }
+      ],
+      "notes": [
+        {
+          "key": "4EQLV5LS",
+          "version": 3490,
+          "itemType": "note",
+          "parentItem": "4S2YUIL6",
+          "note": "<div data-schema-version=\"9\"><pre>R Core Team (2025). _R: A Language and Environment for Statistical Computing_. R Foundation for Statistical Computing, Vienna, Austria. &lt;https://www.R-project.org/&gt;.</pre>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-02-23T01:24:28Z",
+          "dateModified": "2026-02-23T01:25:11Z",
+          "uri": "http://zotero.org/users/14346239/items/4EQLV5LS"
+        }
+      ],
+      "itemKey": "4S2YUIL6",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/4S2YUIL6"
+    },
+    {
+      "key": "ZJV7Z8RC",
+      "version": 3887,
+      "itemType": "webpage",
+      "title": "numpy.matrix — NumPy v2.4 Manual",
+      "url": "https://numpy.org/doc/2.4/reference/generated/numpy.matrix.html",
+      "accessDate": "2026-04-10T01:03:25Z",
+      "citationKey": "zotero-item-1150",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-10T01:03:25Z",
+      "dateModified": "2026-04-10T01:03:25Z",
+      "uri": "http://zotero.org/users/14346239/items/ZJV7Z8RC",
+      "itemID": 1150,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "numpy.matrix — NumPy v2.4 Manual",
+          "url": "https://numpy.org/doc/2.4/reference/generated/numpy.matrix.html",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-10T01:03:33Z",
+          "dateModified": "2026-04-10T01:03:33Z",
+          "uri": "http://zotero.org/users/14346239/items/LMFVDZ9E",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\LMFVDZ9E\\numpy.matrix.html",
+          "select": "zotero://select/library/items/LMFVDZ9E"
+        }
+      ],
+      "notes": [],
+      "itemKey": "ZJV7Z8RC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/ZJV7Z8RC"
+    },
+    {
+      "key": "N8GMA7FD",
+      "version": 3896,
+      "itemType": "webpage",
+      "title": "matplotlib.pyplot.violinplot — Matplotlib 3.10.8 documentation",
+      "url": "https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.violinplot.html",
+      "accessDate": "2026-04-10T01:32:26Z",
+      "citationKey": "zotero-item-1156",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-10T01:32:26Z",
+      "dateModified": "2026-04-10T01:32:26Z",
+      "uri": "http://zotero.org/users/14346239/items/N8GMA7FD",
+      "itemID": 1156,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "matplotlib.pyplot.violinplot — Matplotlib 3.10.8 documentation",
+          "url": "https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.violinplot.html",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-10T01:32:38Z",
+          "dateModified": "2026-04-10T01:32:38Z",
+          "uri": "http://zotero.org/users/14346239/items/85FISSYT",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\85FISSYT\\matplotlib.pyplot.violinplot.html",
+          "select": "zotero://select/library/items/85FISSYT"
+        }
+      ],
+      "notes": [],
+      "itemKey": "N8GMA7FD",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/N8GMA7FD"
+    },
+    {
+      "key": "D8K9KNAC",
+      "version": 3899,
+      "itemType": "webpage",
+      "title": "pandas.DataFrame.describe — pandas 3.0.2 documentation",
+      "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html",
+      "accessDate": "2026-04-10T01:44:38Z",
+      "citationKey": "zotero-item-1158",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-10T01:44:38Z",
+      "dateModified": "2026-04-10T01:44:38Z",
+      "uri": "http://zotero.org/users/14346239/items/D8K9KNAC",
+      "itemID": 1158,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "pandas.DataFrame.describe — pandas 3.0.2 documentation",
+          "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-10T01:44:43Z",
+          "dateModified": "2026-04-10T01:44:43Z",
+          "uri": "http://zotero.org/users/14346239/items/9EVM8VKL",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\9EVM8VKL\\pandas.DataFrame.describe.html",
+          "select": "zotero://select/library/items/9EVM8VKL"
+        }
+      ],
+      "notes": [],
+      "itemKey": "D8K9KNAC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/D8K9KNAC"
+    },
+    {
+      "key": "9DN3RE3F",
+      "version": 4359,
+      "itemType": "webpage",
+      "title": "What is a z-score? What is a p-value?—ArcGIS Pro | Documentation",
+      "url": "https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/what-is-a-z-score-what-is-a-p-value.htm",
+      "accessDate": "2026-04-29T00:21:47Z",
+      "citationKey": "zotero-item-1186",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2026-04-29T00:21:47Z",
+      "dateModified": "2026-04-29T00:21:47Z",
+      "uri": "http://zotero.org/users/14346239/items/9DN3RE3F",
+      "itemID": 1186,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "What is a z-score? What is a p-value?—ArcGIS Pro | Documentation",
+          "url": "https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/what-is-a-z-score-what-is-a-p-value.htm",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2026-04-29T00:21:58Z",
+          "dateModified": "2026-04-29T00:21:58Z",
+          "uri": "http://zotero.org/users/14346239/items/ZACC6Z9Z",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\ZACC6Z9Z\\what-is-a-z-score-what-is-a-p-value.html",
+          "select": "zotero://select/library/items/ZACC6Z9Z"
+        }
+      ],
+      "notes": [],
+      "itemKey": "9DN3RE3F",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/9DN3RE3F"
+    },
+    {
+      "key": "DXZK8GI2",
+      "version": 4047,
+      "itemType": "webpage",
+      "title": "The Comprehensive R Archive Network",
+      "url": "https://cran.r-project.org/",
+      "accessDate": "2025-11-23T20:05:16Z",
+      "citationKey": "zotero-item-966",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-11-23T20:05:16Z",
+      "dateModified": "2025-11-23T20:05:16Z",
+      "uri": "http://zotero.org/users/14346239/items/DXZK8GI2",
+      "itemID": 966,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "The Comprehensive R Archive Network",
+          "url": "https://cran.r-project.org/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-11-23T20:05:16Z",
+          "dateModified": "2025-11-23T20:05:16Z",
+          "uri": "http://zotero.org/users/14346239/items/M3KCLP9V",
+          "path": "C:\\Users\\22lho\\Zotero\\storage\\M3KCLP9V\\cran.r-project.org.html",
+          "select": "zotero://select/library/items/M3KCLP9V"
+        }
+      ],
+      "notes": [
+        {
+          "key": "KC7L9A3H",
+          "version": 3327,
+          "itemType": "note",
+          "parentItem": "DXZK8GI2",
+          "note": "<div data-schema-version=\"9\"><pre> &nbsp;R Core Team (2025). _R: A Language and Environment for Statistical Computing_. R Foundation\n &nbsp;for Statistical Computing, Vienna, Austria. &lt;https://www.R-project.org/&gt;.</pre>\n</div>",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-11-23T20:07:29Z",
+          "dateModified": "2025-11-23T20:07:33Z",
+          "uri": "http://zotero.org/users/14346239/items/KC7L9A3H"
+        }
+      ],
+      "itemKey": "DXZK8GI2",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/DXZK8GI2"
+    }
+  ]
+}
