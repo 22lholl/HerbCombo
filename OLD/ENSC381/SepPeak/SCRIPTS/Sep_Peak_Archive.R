@@ -41,6 +41,96 @@ library(diptest)
 library(LaplacesDemon)
 library(mousetrap)
 
+
+####Task: adding month as factor, remove NA months####
+
+#filter out NAs from date columns
+#in some cases, dates may be noted in record number or habitat column, could also get estimate based on when collector active? in any case, not enough consistency to be able to extract with code, and would be a hand edit
+
+#see how many records will be removed
+
+SUWS_clean %>% count(month)
+
+SUWS_clean <-
+  SUWS_clean %>% 
+  filter(!(is.na(month)))
+
+#make factor level variable for months
+
+SUWS_clean <-
+  SUWS_clean %>%
+  mutate(month_fctr = case_when(
+    month == "1" ~ "January",
+    month == "2" ~ "February",
+    month == "3" ~ "March",
+    month == "4" ~ "April",
+    month == "5" ~ "May",
+    month == "6" ~ "June",
+    month == "7" ~ "July",
+    month == "8" ~ "August",
+    month == "9" ~ "September",
+    month == "10" ~ "October",
+    month == "11" ~ "November",
+    month == "12" ~ "December",
+    TRUE ~ "Other Months"
+  ))
+
+#order factors
+
+SUWS_clean$month_fctr <-
+  factor(SUWS_clean$month_fctr,
+         levels = c("January",
+                    "February",
+                    "March",
+                    "April",
+                    "May",
+                    "June",
+                    "July",
+                    "August",
+                    "September",
+                    "October",
+                    "November",
+                    "December",
+                    "Other Months"))
+
+####Task: only attach primary to record####
+
+SUWS_primary <-
+  SUWS_clean %>%
+  mutate(recordedBy_og = recordedBy) %>%
+  separate(recordedBy,
+           into = c('recordedBy_primary',
+                    'recordedBy_secondary'),
+           sep = ';') %>%
+  select(-recordedBy_secondary)
+
+#make collector group
+
+SUWS_primary <-
+  SUWS_primary %>%
+  mutate(coll_gr = case_when(
+    recordedBy_primary == "Brashier" ~ "Brashier",
+    recordedBy_primary == "Thomson, John W., Jr." ~ "Thomson, John W., Jr.",
+    recordedBy_primary == "Anderson, Derek S." ~ "Anderson, Derek S.",
+    recordedBy_primary == "Koch, Rudy G." ~ "Koch, Rudy G.",
+    recordedBy_primary == "Castle, R." ~ "Castle, R.",
+    recordedBy_primary == "Romans" ~ "Romans",
+    recordedBy_primary == "Davidson, Donald W." ~ "Davidson, Donald W.",
+    TRUE ~ "Other Collectors" #Default Case
+  )) 
+
+#order factors for plot legend
+
+SUWS_primary$coll_gr <-
+  factor(SUWS_primary$coll_gr,
+         levels = c("Anderson, Derek S.",
+                    "Brashier",
+                    "Castle, R.",
+                    "Davidson, Donald W.",
+                    "Koch, Rudy G.",
+                    "Romans",
+                    "Thomson, John W., Jr.",
+                    "Other Collectors"))
 ####SUWS to SUWS_clean - column and row clean-up####
 
 #SUWS WisFlora, unaltered
@@ -270,57 +360,97 @@ write.csv(SUWS_clean,
 
 rm(list = setdiff(ls(), "SUWS_clean"))
 
-####Task: adding month as factor, remove NA months####
+####Task: attach primary, secondary, tertiary collectors to each record all in one column####
 
-#filter out NAs from date columns
-#in some cases, dates may be noted in record number or habitat column, could also get estimate based on when collector active? in any case, not enough consistency to be able to extract with code, and would be a hand edit
-
-#see how many records will be removed
-
-SUWS_clean %>% count(month)
-
-SUWS_clean <-
-  SUWS_clean %>% 
-  filter(!(is.na(month)))
-
-#make factor level variable for months
-
-SUWS_clean <-
+SUWS_sep_collectors <-
   SUWS_clean %>%
-  mutate(month_fctr = case_when(
-    month == "1" ~ "January",
-    month == "2" ~ "February",
-    month == "3" ~ "March",
-    month == "4" ~ "April",
-    month == "5" ~ "May",
-    month == "6" ~ "June",
-    month == "7" ~ "July",
-    month == "8" ~ "August",
-    month == "9" ~ "September",
-    month == "10" ~ "October",
-    month == "11" ~ "November",
-    month == "12" ~ "December",
-    TRUE ~ "Other Months"
-  ))
+  mutate(recordedBy_og = recordedBy) %>%
+  separate(recordedBy,
+           into = c('recordedBy_primary',
+                    'recordedBy_secondary'),
+           sep = ';') %>%
+  separate(recordedBy_secondary,
+           into = c('recordedBy_secondary_last',
+                    'recordedBy_secondary_first',
+                    'recordedBy_tertiary_last',
+                    'recordedBy_tertiary_first'),
+           sep = ",") %>%
+  unite(col = recordedBy_secondary,
+        recordedBy_secondary_last,
+        recordedBy_secondary_first,
+        sep = ',',
+        na.rm = TRUE) %>%
+  unite(col = recordedBy_tertiary,
+        recordedBy_tertiary_last,
+        recordedBy_tertiary_first,
+        sep = ',',
+        na.rm = TRUE)
 
-#order factors
+#separate collectors
 
-SUWS_clean$month_fctr <-
-  factor(SUWS_clean$month_fctr,
-         levels = c("January",
-                    "February",
-                    "March",
-                    "April",
-                    "May",
-                    "June",
-                    "July",
-                    "August",
-                    "September",
-                    "October",
-                    "November",
-                    "December",
-                    "Other Months"))
+Coll1 <-
+  SUWS_sep_collectors %>%
+  select(-recordedBy_secondary,
+         -recordedBy_tertiary) %>%
+  rename(collectedBy = recordedBy_primary)
 
+Coll2 <-
+  SUWS_sep_collectors %>%
+  select(-recordedBy_primary,
+         -recordedBy_tertiary) %>%
+  filter(recordedBy_secondary != "") %>%
+  rename(collectedBy = recordedBy_secondary)
+
+
+Coll3 <-
+  SUWS_sep_collectors %>%
+  select(-recordedBy_secondary,
+         -recordedBy_primary) %>%
+  filter(recordedBy_tertiary != "") %>%
+  rename(collectedBy = recordedBy_tertiary)
+
+SUWS_sep_collectors <- rbind(Coll1,
+                             Coll2,
+                             Coll3)
+
+#remove coll 1, coll2, coll3
+
+rm(Coll1,
+   Coll2,
+   Coll3)
+
+#trim collector column - somehow adding spaces before some names
+
+SUWS_sep_collectors$collectedBy <-
+  str_trim(SUWS_sep_collectors$collectedBy, side = "left")
+
+#make collector group
+
+SUWS_sep_collectors <-
+  SUWS_sep_collectors %>%
+  mutate(coll_gr = case_when(
+    collectedBy == "Brashier" ~ "Brashier",
+    collectedBy == "Thomson, John W., Jr." ~ "Thomson, John W., Jr.",
+    collectedBy == "Anderson, Derek S." ~ "Anderson, Derek S.",
+    collectedBy == "Koch, Rudy G." ~ "Koch, Rudy G.",
+    collectedBy == "Castle, R." ~ "Castle, R.",
+    collectedBy == "Romans" ~ "Romans",
+    collectedBy == "Davidson, Donald W." ~ "Davidson, Donald W.",
+    TRUE ~ "Other Collectors" #Default Case
+  )) 
+
+#order factors for plot legend
+
+SUWS_sep_collectors$coll_gr <-
+  factor(SUWS_sep_collectors$coll_gr,
+         levels = c("Anderson, Derek S.",
+                    "Brashier",
+                    "Castle, R.",
+                    "Davidson, Donald W.",
+                    "Koch, Rudy G.",
+                    "Romans",
+                    "Thomson, John W., Jr.",
+                    "Other Collectors"))
 ####Task: only attach primary to record####
 
 SUWS_primary <-
