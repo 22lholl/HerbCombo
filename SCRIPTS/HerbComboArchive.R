@@ -310,6 +310,48 @@ rm(list = setdiff(ls(), "SUWS_clean"))
 
 #ENSC 381
 
+#DRAFTS
+
+
+
+#POLISHED (exported at some point)
+
+  #conceptual Model of Collector Role Biases - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+      #introduces environmental diff in collector practices
+
+  #Specimens by month - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+      #breaks out top seven and all other collectors, shows july and sep peak
+
+  #Contributions by month - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+      #breaks out top seven and all other collectors, shows july and sep peak
+
+  #contributions made by collectors in September - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+      #orders all collectors from most to least contributions, highlights approximate halfway point with red line
+
+  #Top 5 of 7 that contributed in September - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+      #monthly graphs of contributions with September highlighted - none have peaks in september
+
+  #Top 18 contributors in September - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+      #names the 18 and gives how many contributions they had, one of the top 7 overall doesn't even make it to here
+
+  #Phylogenetic Tree, orders, July Contributions - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+      #flowering orders more popular in summer, both by number and being collected at all
+
+  #Phylogenetic Tree, orders, September contributions - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+      #non-flowering more popular when considering less angiosperm orders collected, but still have trend of major angiosperm orders having the most collections
+
+  #comparison of July and September contributions, broken out by July vs. September and top 7 vs. other collectors - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+      #shows that top 7 barely collect in september, other collectors about same in September
+
+  #Kadmon Index, WI counties statewide - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+
+  #Kadmon Index, counties in WI's northern region - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+
+  #Kadmon Index, townships in WI's northern region - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+      #has error - labeled as counties but is actually townships
+
+  #Kadmon Index, townships in Douglas county - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+
 ####Draft Figures from Figure Catalog####
   ####GEOG 491####
     ####Task: histogram of who collected how much (MODIFIED)####
