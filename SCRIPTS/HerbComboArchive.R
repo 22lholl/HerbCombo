@@ -312,35 +312,44 @@ rm(list = setdiff(ls(), "SUWS_clean"))
 
 #DRAFTS
 
+  ##daily histo - Draft Figures code, ENSC 381
+    #has bar graph of 365 days and daily count of how much contributed and/or collected on that day, with September and July highlighted to emphasize that even daily seems higher than normal
 
+  ##collection size of september collectors, collectors with less than 150 and more than 150 - Draft Figures code, ENSC 381
+    #displays collection size of specifically collectors in September in order of least to most
+    #does for both more than 150 contributions, which is 5 of the top 7 that contributed in September (if contributed in September, whole collection across entire year feeds in), as well as less than 150 contributions, which is everybody else
+    
+  ##dotplots - Draft Figures code, ENSC 381
+    #compares July vs. September and then Angiosperm vs. Nonflowering on an xy plane
+    #almost an exponential curve where non top 7 are generally in lower left but top 7 in upper right
 
 #POLISHED (exported at some point)
 
   #conceptual Model of Collector Role Biases - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
       #introduces environmental diff in collector practices
 
-  #Specimens by month - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+  ##Specimens by month - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
       #breaks out top seven and all other collectors, shows july and sep peak
 
-  #Contributions by month - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+  ##Contributions by month - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
       #breaks out top seven and all other collectors, shows july and sep peak
 
-  #contributions made by collectors in September - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+  ##contributions made by collectors in September - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
       #orders all collectors from most to least contributions, highlights approximate halfway point with red line
 
-  #Top 5 of 7 that contributed in September - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+  ##Top 5 of 7 that contributed in September - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
       #monthly graphs of contributions with September highlighted - none have peaks in september
 
-  #Top 18 contributors in September - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+  ##Top 18 contributors in September - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
       #names the 18 and gives how many contributions they had, one of the top 7 overall doesn't even make it to here
 
-  #Phylogenetic Tree, orders, July Contributions - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+  ##Phylogenetic Tree, orders, July Contributions - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
       #flowering orders more popular in summer, both by number and being collected at all
 
-  #Phylogenetic Tree, orders, September contributions - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+  ##Phylogenetic Tree, orders, September contributions - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
       #non-flowering more popular when considering less angiosperm orders collected, but still have trend of major angiosperm orders having the most collections
 
-  #comparison of July and September contributions, broken out by July vs. September and top 7 vs. other collectors - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
+  ##comparison of July and September contributions, broken out by July vs. September and top 7 vs. other collectors - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
       #shows that top 7 barely collect in september, other collectors about same in September
 
   #Kadmon Index, WI counties statewide - OLD > ENSC381 > SepPeak > MARKDOWN, research paper pdf
@@ -354,7 +363,7 @@ rm(list = setdiff(ls(), "SUWS_clean"))
 
 ####Draft Figures from Figure Catalog####
   ####GEOG 491####
-    ####Task: histogram of who collected how much (MODIFIED)####
+    ####Task: histogram of who collected how much (MODIFIED, only pulled one graph that was missing)####
 
 #Coll_cty_CN - has catalogNumber, county collected in, and name of collector. Specimens may be repeated if there were two or more collectors listed
 Coll_cty_CN <- read.csv("DATA/CLEAN/from_OLD/Coll_cty_CN.csv")
@@ -475,3 +484,216 @@ ggplot(
                        name = "Specimens Added")
 
   ####ENSC 381####
+    ####Task: make daily histo (UNMODIFIED)####
+
+#SUWS where only primary collectors are attached to a record (single entry for a specimen)
+SUWS_primary <- read.csv("DATA/CLEAN/from_OLD/SUWS_primary.csv")
+
+#SUWS where collectors are associated with their record (specimens appear more than once if there was more than one collector)
+SUWS_sep_collectors <- read.csv("DATA/CLEAN/from_OLD/SUWS_sep_collectors.csv")
+
+#blank monthly histo - raw specimens numbers
+
+ggplot(SUWS_primary,
+       aes(x = startDayOfYear)) +
+  geom_bar() +
+  annotate("text",
+           label = "September",
+           x = 325,
+           y = 125,
+           color = "red") +
+  geom_vline(xintercept = 244,
+             col = "red",
+             size = 1) +
+  geom_vline(xintercept = 273,
+             col = "red",
+             size = 1) +
+  annotate("text",
+           label = "July",
+           x = 150,
+           y = 125,
+           color = "blue") +
+  geom_vline(xintercept = 182,
+             col = "blue",
+             size = 1) +
+  geom_vline(xintercept = 212,
+             col = "blue",
+             size = 1) +
+  labs(title = "Specimens by Day",
+       y = "Specimens") +
+  theme(axis.title.x = element_blank(),
+        axis.text.x = element_blank())
+
+#blank monthly histo - collection instances
+
+ggplot(SUWS_sep_collectors,
+       aes(x = startDayOfYear)) +
+  geom_bar() +
+  annotate("text",
+           label = "September",
+           x = 325,
+           y = 125,
+           color = "red") +
+  geom_vline(xintercept = 244,
+             col = "red",
+             size = 1) +
+  geom_vline(xintercept = 273,
+             col = "red",
+             size = 1) +
+  annotate("text",
+           label = "July",
+           x = 150,
+           y = 125,
+           color = "blue") +
+  geom_vline(xintercept = 182,
+             col = "blue",
+             size = 1) +
+  geom_vline(xintercept = 212,
+             col = "blue",
+             size = 1) +
+  labs(title = "Contributions by Day",
+       y = "Contributions") +
+  theme(axis.title.x = element_blank(),
+        axis.text.x = element_blank())
+
+    ####Task: Display the collection size of September collectors (MODIFIED, only pulled two graphs that was missing)####
+
+#SUWS containing only those who have made contributions in September
+SUWS_Sept_coll <- read.csv("DATA/CLEAN/from_OLD/SUWS_Sept_coll.csv")
+
+Sept_Coll_size <-
+  SUWS_Sept_coll %>%
+  group_by(collectedBy) %>%
+  count(collectedBy)
+
+#know that 5 of top 7 are in graph
+
+ggplot(subset(Sept_Coll_size,
+              n > 150),
+       aes(x = fct_reorder(collectedBy,
+                           -n),
+           y = n)) +
+  geom_col()  +
+  theme(axis.title.x = element_blank(),
+        axis.text.x = element_text(angle = 45,
+                                   hjust = 1,
+                                   vjust = 0.75))
+
+#what about other collectors who also contributed during Sep?
+
+ggplot(subset(Sept_Coll_size,
+              n < 150),
+       aes(x = fct_reorder(collectedBy,
+                           -n),
+           y = n)) +
+  geom_col()  +
+  labs(x = "Collectors (116), n < 150",
+       y = "Contributions") + 
+  theme(axis.text.x = element_blank())
+
+####Task: Prep data for Paired Wilcox, assess for normality, Plot comparisons (UNMODIFIED)####
+
+#filter for only July and Sep collections, then count by collector, month, and whether angiosperm order, then count
+
+what_coll_count_month <-
+  SUWS_sep_collectors %>%
+  filter(month_fctr == "July" |
+           month_fctr == "September") %>%
+  group_by(collectedBy,
+           coll_gr,
+           month_fctr) %>%
+  count(collectedBy) %>%
+  pivot_wider(names_from = "month_fctr",
+              values_from = "n")
+
+what_coll_count_Angio <-
+  SUWS_sep_collectors  %>%
+  filter(month_fctr == "July" |
+           month_fctr == "September") %>%
+  group_by(collectedBy,
+           coll_gr,
+           Angio) %>%
+  count(collectedBy) %>%
+  pivot_wider(names_from = "Angio",
+              values_from = "n")
+
+what_coll_count <- 
+  merge(what_coll_count_month,
+        what_coll_count_Angio,
+        by = c("collectedBy",
+               "coll_gr")) %>%
+  mutate(July = replace_na(July, 0),
+         September = replace_na(September, 0),
+         Angiosperms = replace_na(Angiosperms, 0),
+         Nonflowering = replace_na(Nonflowering, 0)) %>%
+  mutate(total = July + September)
+
+#normality
+
+qqnorm(what_coll_count$July)
+qqline(what_coll_count$July,
+       lty = 2)
+
+qqnorm(what_coll_count$September)
+qqline(what_coll_count$September,
+       lty = 2)
+
+qqnorm(what_coll_count$Angiosperms)
+qqline(what_coll_count$Angiosperms,
+       lty = 2)
+
+qqnorm(what_coll_count$Nonflowering)
+qqline(what_coll_count$Nonflowering,
+       lty = 2)
+
+#order factors for plot legend
+
+what_coll_count$coll_gr <-
+  factor(what_coll_count$coll_gr,
+         levels = c("Anderson, Derek S.",
+                    "Brashier",
+                    "Castle, R.",
+                    "Davidson, Donald W.",
+                    "Koch, Rudy G.",
+                    "Romans",
+                    "Thomson, John W., Jr.",
+                    "Other Collectors"))  
+
+#plot
+
+ggplot(what_coll_count,
+       aes(x = July,
+           y = September,
+           color = coll_gr)) +
+  geom_point() +
+  labs(color = "Contributor",
+       x = "July Contributions",
+       y = "September Contributions") +
+  scale_color_brewer(palette = "Set1") +
+  scale_y_continuous(limits = c(0, 70), expand = c(0, 0.25)) +
+  scale_x_continuous(limits = c(0, 500), expand = c(0, 5))
+
+ggsave("PLOTS/July_Sept_dotplot.png",
+       height = 4,
+       width = 6,
+       units = "in",
+       dpi = "retina")
+
+ggplot(what_coll_count,
+       aes(x = Angiosperms,
+           y = Nonflowering,
+           color = coll_gr)) +
+  geom_point() +
+  labs(color = "Contributor",
+       x = "Nonflowering Contributions",
+       y = "Angiosperm Contributions") +
+  scale_color_brewer(palette = "Set1") +
+  scale_y_continuous(limits = c(0, 25), expand = c(0, 0.25)) +
+  scale_x_continuous(limits = c(0, 500), expand = c(0, 5))
+
+ggsave("PLOTS/July_Sept_Angio_NonF_dotplot.png",
+       height = 4,
+       width = 6,
+       units = "in",
+       dpi = "retina")
+
