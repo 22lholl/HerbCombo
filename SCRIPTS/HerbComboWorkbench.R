@@ -19,15 +19,6 @@
 #write code so it is easy to add chopped up large herbaria datasets to be assembled in R for analysis
 #look for any dropped years in the larger datasets that are chopped up by year
 
-####Task: Compare Data from different Hosts####
-
-#Thought process
-
-#add host column to data before merging
-#merge data into one big dataframe
-#sort by collection ID
-#keep the records that are the most complete
-
 ####Task: Merge into one big dataframe####
 
 HerbCombo <- list.files(path = "DATA/RAW",
@@ -38,9 +29,49 @@ HerbCombo <- list.files(path = "DATA/RAW",
          locale = locale(encoding = "latin1")) %>%
   bind_rows()
 
+HerbCombo <- list.files(path = "DATA/RAW",
+                        pattern = "\\.csv$",
+                        full.names = TRUE) %>%
+  setNames(basename(.)) %>%
+  lapply(read_csv, 
+         col_types = cols(.default = col_character()),
+         locale = locale(encoding = "latin1")) %>%
+  bind_rows(.id = "Source_File")
 
+####Task: Compare Data from different Hosts + look for duplicates####
 
+#Thought process
 
+#sort by collection ID - look at console output to see if more than one listed
+#If only one listed, put into new mega dataset and remove from old
+#If more than one, look at records - try to keep all of one dataset together, but also go for the most complete data
+
+lkg_fr_dups <- 
+  HerbCombo %>% 
+  group_by(Source_File,
+           institutionCode, 
+           catalogNumber) %>% 
+  count() %>% 
+  filter(n > 1)
+
+#seems like if 2 with same catalogNumber from dataset and same institution, might be determination history error? those would require more investigation...
+
+#in any case, can deal with records that have no catalog number first. 
+
+issues <-
+  HerbCombo %>%
+  filter(institutionCode == "CONCOL",
+         catalogNumber == "CONC004877" | catalogNumber == "CONC004879" | catalogNumber == "CONC004885")
+
+issues <-
+  HerbCombo %>%
+  filter(institutionCode == "CSBSJU",
+         is.na(catalogNumber) == TRUE) %>%
+  group_by(year,
+           month,
+           day,
+           recordedBy,
+           taxonID)
 
 
 
