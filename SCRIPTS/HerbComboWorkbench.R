@@ -19,15 +19,7 @@
 #write code so it is easy to add chopped up large herbaria datasets to be assembled in R for analysis
 #look for any dropped years in the larger datasets that are chopped up by year
 
-####Task: Merge into one big dataframe####
-
-HerbCombo <- list.files(path = "DATA/RAW",
-                        pattern = "\\.csv$",
-                        full.names = TRUE) %>%
-  lapply(read_csv, 
-         col_types = cols(.default = col_character()),
-         locale = locale(encoding = "latin1")) %>%
-  bind_rows()
+####Task: Merge raw csv files into one big dataframe####
 
 HerbCombo <- list.files(path = "DATA/RAW",
                         pattern = "\\.csv$",
@@ -38,7 +30,46 @@ HerbCombo <- list.files(path = "DATA/RAW",
          locale = locale(encoding = "latin1")) %>%
   bind_rows(.id = "Source_File")
 
-####Task: Compare Data from different Hosts + look for duplicates####
+####Task: Get one record for every record####
+
+#duplicates could happen for two reasons - problem with database having two records or problem that the same record is coming from different databases
+
+#make list of duplicate instances - n more than one indicates it is replicated somewhere, and with source file included this is indicating problems within specific datasets.
+
+lkg_fr_dups <- 
+  HerbCombo %>% 
+  group_by(Source_File,
+           institutionCode,
+           catalogNumber) %>% 
+  count() %>% 
+  filter(n > 1)
+
+#sorting by the largest number reveals datasets where the catalogNumber is NA. These can be checked for unique instances by grouping by date, taxon, and people collecting - chances are, somebody is not going to collect the same plant on the same day, though if this happens geography could be an additional check?
+
+lkg_fr_cN_NA <-
+  HerbCombo %>%
+  filter(is.na(catalogNumber) == TRUE) %>%
+  group_by(Source_File,
+           institutionCode,
+           year,
+           month,
+           day,
+           recordedBy,
+           taxonID) %>%
+  count() %>%
+  filter(n > 1)
+
+#verify that records ok
+
+
+
+#pull out unique instances so that can add independently to dataset later
+
+cN_NA_keep <-
+  
+
+
+
 
 #Thought process
 
