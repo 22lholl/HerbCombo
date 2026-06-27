@@ -61,11 +61,9 @@ lkg_fr_cN_NA <-
 
 #verify that records ok
 
-
+#maybe cross ref with occurenceID? if occurenceID unique, will be unique record?
 
 #pull out unique instances so that can add independently to dataset later
-
-cN_NA_keep <-
   
 
 
