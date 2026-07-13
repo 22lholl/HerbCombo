@@ -827,3 +827,236 @@ write.csv(Consortium_WIS_1977_2000,
 write.csv(Consortium_WIS_post2000,
           "DATA/RAW_OG/DarwinCore_2026_06_21_220149_Consortium_WIS_post2000.csv",
           row.names = FALSE)
+####Notes: list of what to check on data and what makes a duplicated record####
+
+#what checks did I do for SUWS to be cleaned?
+
+#check if all NAs in a column
+#checking if there is the same entry in every column
+#removing columns of little value to analysis (trying to reduce file size as much as possible)
+#look for misspellings of collector names
+#separating out and attaching collectors in individual columns
+
+#looking for duplicate catalog numbers
+#make decision about records with incomplete geographic or temporal information
+
+#What are additional checks I should do when dealing with multiple herbaria and multiple download sources for herbaria?
+
+#compare datasets between different sources and determine which records to use
+#write code so it is easy to add chopped up large herbaria datasets to be assembled in R for analysis
+#look for any dropped years in the larger datasets that are chopped up by year
+
+#what constitutes a duplicate?
+
+#same day, same plant, same people
+
+####Task: check data types, get one big unfiltered dataset####
+
+#finding which variables are tripping up HerbCombo and giving warning message
+
+# 1. Define the path to your folder
+folder_path <- "DATA/RAW/"
+
+# 2. Get a list of all CSV files in that folder
+file_list <- list.files(path = folder_path, pattern = "\\.csv$", full.names = TRUE)
+
+# 3. Loop through files and assign each to its own data frame
+for (file in file_list) {
+  # Extract the clean file name without the path and extension to use as the variable name
+  obj_name <- tools::file_path_sans_ext(basename(file))
+  
+  # Read the CSV and assign it to that name
+  assign(obj_name, read.csv(file,
+                            fileEncoding = "latin1"))
+}
+
+#delete objects form environment that aren't dataframes
+rm(file)
+rm(file_list)
+rm(folder_path)
+rm(obj_name)
+
+library(janitor)
+
+# 2. Put your data frames into a named list
+df_list <- list(mget(ls()))
+
+# 3. Compare the columns
+comparison_table <- 
+  compare_df_cols(df_list[[1]]) %>%
+  pivot_longer(
+    cols = !c(column_name),      # Excludes these columns from pivoting
+    names_to = "csv_name",            # Name of the new category column
+    values_to = "datatype"            # Name of the new data values column
+  )
+
+#can export csv and open up in google sheets or excel
+# write.csv(comparison_table,
+#           file = "DATA/CLEAN/comparison_table.csv",
+#           row.names = FALSE)
+
+#process
+#run comparison table to get list of what variables to check
+#compare datasets and HerbCombo entries to see if data dropped - look particularly for if labeled character in comparison table when shouldn't be/other datasets aren't
+
+#get one big dataset
+
+HerbCombo <- list.files(path = "DATA/RAW",
+                        pattern = "\\.csv$",
+                        full.names = TRUE) %>%
+  setNames(basename(.)) %>%
+  lapply(read_csv,
+         col_types = cols(.default = "c"),
+         locale = locale(encoding = "latin1")) %>%
+  bind_rows(.id = "Source_File")
+
+HerbCombo_datatype_comparison <-
+  HerbCombo %>%
+  select(Source_File,
+         accessRights) %>%
+  group_by(Source_File,
+           accessRights) %>%
+  count()
+
+#once satisfied, remove all extraneous datasets
+
+rm(list = setdiff(ls(),
+                  "HerbCombo"))
+
+####Task: filter by unique occurenceID (1/3)####
+
+#create first filter - unique occurenceID in this case
+
+issues_initial <-
+  HerbCombo %>%
+  group_by(occurrenceID) %>%
+  count()
+
+#create answer datasets to unique occurrenceID filter and pull out identifying information
+
+issues_Y <-
+  issues_initial %>%
+  filter(n == 1)
+
+issues_N <-
+  issues_initial %>%
+  filter(n > 1,
+         !(is.na(occurrenceID)))
+
+#pulling NAs helps verify if records are being dropped from initial dataset (Y + N + NA = initial) - not necessary to pull with first filter since identifiable with is.na
+
+# issues_NA <-
+#   issues_initial %>%
+#   filter(is.na(occurrenceID))
+
+#remove initial dataset
+
+rm(issues_initial)
+####Tak: filter by unique institutionCode/catalogNumber (2/3)####
+
+#create datasets filtered to contain records matching answer datasets
+
+issues_Y_second <-
+  HerbCombo %>%
+  filter(occurrenceID %in% issues_Y$occurrenceID) %>%
+  group_by(occurrenceID,
+           institutionCode,
+           catalogNumber) %>%
+  count()
+
+issues_N_second <-
+  HerbCombo %>%
+  filter(occurrenceID %in% issues_N$occurrenceID) %>%
+  group_by(occurrenceID,
+           institutionCode,
+           catalogNumber) %>%
+  count()
+
+#note: because issues N pulls multiple occurence id, the issues N second dataset will be larger because it is pulling all records but adding institution code and catalog Number as additonal qualifiers.
+
+#a test to verify if issues N second has pulled the correct amount of records is to add up the count column from issues N and then from issues N second. if they equal each other, then they pulled the right records.
+
+# sum(issues_N$n)
+# sum(issues_N_second$n)
+
+issues_NA_second <-
+  HerbCombo %>%
+  filter(is.na(occurrenceID)) %>%
+  group_by(occurrenceID,
+           institutionCode,
+           catalogNumber) %>%
+  count()
+
+#remove datasets
+
+rm(issues_Y)
+rm(issues_N)
+
+#create answer datasets to unique ic/cn filter and pull out identifying information
+#note on NA filtering - because all records were downloaded by collection name (and will have an institutionCode because of it), it will be catalogNumber that is NA in this step.
+
+issues_Y_Y <-
+  issues_Y_second %>%
+  filter(n == 1,
+         !(is.na(catalogNumber)))
+
+issues_Y_N <-
+  issues_Y_second %>%
+  filter(n > 1,
+         !(is.na(catalogNumber)))
+
+issues_Y_NA <-
+  issues_Y_second %>%
+  filter(is.na(catalogNumber))
+
+
+
+issues_N_Y <-
+  issues_N_second %>%
+  filter(n == 1,
+         !(is.na(catalogNumber)))
+
+issues_N_N <-
+  issues_N_second %>%
+  filter(n > 1,
+         !(is.na(catalogNumber)))
+
+issues_N_NA <-
+  issues_N_second %>%
+  filter(is.na(catalogNumber))
+
+#checking that n added up across all three datasets equals what was in issues n second to ensure all records filtered
+
+# sum(issues_N_Y$n,
+#     issues_N_N$n,
+#     issues_N_NA$n)
+# sum(issues_N_second$n)
+
+
+
+issues_NA_Y <-
+  issues_NA_second %>%
+  filter(n == 1,
+         !(is.na(catalogNumber)))
+
+issues_NA_N <-
+  issues_NA_second %>%
+  filter(n > 1,
+         !(is.na(catalogNumber)))
+
+issues_NA_NA <-
+  issues_NA_second %>%
+  filter(is.na(catalogNumber))
+
+#checking that n adds up across all three datasets
+
+# sum(issues_NA_Y$n,
+#      issues_NA_N$n,
+#      issues_NA_NA$n)
+# sum(issues_NA_second$n)
+
+#remove datasets
+
+rm(issues_Y_second)
+rm(issues_N_second)
+rm(issues_NA_second)
